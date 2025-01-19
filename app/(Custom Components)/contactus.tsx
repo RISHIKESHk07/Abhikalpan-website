@@ -11,7 +11,11 @@ const Contact = () => {
       </p>
       <div className="flex flex-wrap relative top-[5vh] left-48 gap-10 box-border	box-sizing: border-box; ">
         <div className="">
-          <img src="\images\Register.png" alt="card1" />
+          <img
+            className="w-[335px] h-[277px]"
+            src="\images\Register.png"
+            alt="card1"
+          />
           <div className=" h-[15px]">
             <p className=" p-0 m-0 relative  text-[13px] left-32 top-[-35vh] text-[#0F595B] overflow-y-auto ">
               Event Coordinator
@@ -30,7 +34,11 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <img src="\images\Register.png" alt="card1" />
+          <img
+            className="w-[335px] h-[277px]"
+            src="\images\Register.png"
+            alt="card1"
+          />
           <p className="relative text-[13px] left-32 top-[-35vh] text-[#0F595B] ">
             Event Coordinator
           </p>
@@ -47,7 +55,11 @@ const Contact = () => {
           </div>
         </div>
         <div>
-          <img src="\images\Register.png" alt="card1" />
+          <img
+            className="w-[335px] h-[277px]"
+            src="\images\Register.png"
+            alt="card1"
+          />
           <p className="relative text-[13px] left-32 top-[-35vh] text-[#0F595B] ">
             Faculty Incharge
           </p>

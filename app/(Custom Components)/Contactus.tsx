@@ -11,7 +11,7 @@ const Contact = () => {
         <p className="relative left-[83vh] text-l text-white">
           For any queries regarding section mentioned feel free to contact.
         </p>
-        <div className="flex flex-wrap relative top-[5vh] left-48 gap-10 box-border	box-sizing: border-box; ">
+        <div className="flex flex-wrap relative top-[5vh] left-48 gap-9 box-border	box-sizing: border-box; ">
           <div className="">
             <Image
               src="/images/Register.png"
@@ -84,7 +84,8 @@ const Contact = () => {
         <Image
           className="relative -top-[90vh] left-[120vh]"
           src="/images/Groupgear.png"
-          width="50" height="50"
+          width="50"
+          height="50"
           alt="blah"
         />
       </div>

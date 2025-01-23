@@ -60,7 +60,7 @@ export default function Footer() {
             <img
               src="/assets/image.png"
               alt="Register Now"
-              className="h-20 hover:opacity-90"
+              className="h-20 hover:opacity-90 hidden"
             />
           </a>
 

@@ -13,10 +13,11 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
   return (
     <div className={`flex position-absolute sticky justify-center content-center flex-col p-0 py-2 ${className}`}>
       <div className="h-28 opacity-50 absolute w-full">.</div>
+
       <Image
         src={Logo}
         alt="logo"
-        className="absolute top-[27%] left-[3.4%] w-[16%] max-w-[19rem]"
+        className="absolute top-[30%] sm:top-[28%] left-[3.4%] w-[16%] max-w-[19rem]"
       />
       <div className="relative w-full">
         <Image
@@ -25,7 +26,7 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
           layout="responsive"
           className="w-full"
         />
-        <div className="absolute top-[33%] md:gap-[2rem] md:right-[4rem] right-[7rem] flex gap-[1rem] lg:gap-[4rem] text-cyan-300 lg:text-lg 2xl:gap-[7rem] 2xl:text-3xl 2xl:right-[8rem]">
+        <div className="font-genos absolute top-[25%] md:top-[33%] md:gap-[2rem] md:right-[4rem] right-[7rem] gap-[1rem] lg:gap-[4rem] text-cyan-300 lg:text-lg 2xl:gap-[7rem] 2xl:text-3xl 2xl:right-[8rem] hidden sm:flex">
           <Link href="/">Home</Link>
           <Link href="/">About</Link>
           <Link href="/">Events</Link>

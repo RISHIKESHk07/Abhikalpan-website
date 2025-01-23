@@ -4,16 +4,16 @@ import { FC } from "react";
 
 const GalleryPage: FC = () => {
   const galleryImages = [
-    { src: "/images/gallery1.jpg", alt: "Event photo 1" },
-    { src: "/images/gallery2.jpg", alt: "Event photo 2" },
-    { src: "/images/gallery3.jpg", alt: "Event photo 3" },
-    { src: "/images/gallery4.jpg", alt: "Event photo 4" },
-    { src: "/images/gallery5.jpg", alt: "Event photo 5" },
-    { src: "/images/gallery6.jpg", alt: "Event photo 6" },
+    { src: "/gallery/img1.jpg", alt: "Event photo 1" },
+    { src: "/gallery/img2.jpg", alt: "Event photo 2" },
+    { src: "/gallery/img3.jpg", alt: "Event photo 3" },
+    { src: "/gallery/img4.jpg", alt: "Event photo 4" },
+    { src: "/gallery/img5.jpg", alt: "Event photo 5" },
+    { src: "/gallery/img6.jpeg", alt: "Event photo 6" },
   ];
 
   return (
-    <div className="bg-gradient-to-b from-teal-900 to-teal-300 text-white min-h-screen py-12 px-4">
+    <div className="bg-gradient-to-b from-teal-900 to-teal-400 text-white min-h-screen py-12 px-4">
 
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold tracking-wide">GALLERY</h1>

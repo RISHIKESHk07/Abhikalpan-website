@@ -14,7 +14,7 @@ const tobelaunched = () => {
 
         <p className="text-center mt-4">
           This page is under construction, but just like the evolution from
-          steam-powered <br /> marvels to neon-lit cyber realms, we're building
+          steam-powered <br /> marvels to neon-lit cyber realms, we&apos;re building
           something extraordinary. Stay <br /> tuned as we gear up to bring the
           magic of Abhikalpan to life.
         </p>

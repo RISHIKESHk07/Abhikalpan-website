@@ -1,6 +1,7 @@
 import card from "@/public/images/Register.png";
 import phone from "@/public/images/Vector.png";
 import email from "@/public/images/Group.png";
+import Image from "next/image";
 
 export default function ContactUs() {
   const contacts = [
@@ -46,7 +47,7 @@ export default function ContactUs() {
             className="relative w-full h-80 p-6 flex flex-col justify-between bg-cover bg-center rounded-lg"
             style={{
               backgroundImage: `url(${contact.cardImage.src})`,
-                backgroundSize: "contain", 
+              backgroundSize: "contain",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
             }}
@@ -59,7 +60,7 @@ export default function ContactUs() {
             </h2>
             <div className="space-y-2 mb-10">
               <div className="flex items-center space-x-2 mb-4">
-                <img
+                <Image
                   src="/images/Vector.png"
                   alt="Phone Icon"
                   width={20}
@@ -69,7 +70,7 @@ export default function ContactUs() {
                 <p className="text-white">{contact.phone}</p>
               </div>
               <div className="flex items-center space-x-2">
-                <img
+                <Image
                   src="/images/Group.png"
                   alt="Email Icon"
                   width={20}

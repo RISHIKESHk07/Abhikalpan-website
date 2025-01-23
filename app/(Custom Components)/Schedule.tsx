@@ -44,8 +44,8 @@ const Schedule: React.FC = () => {
       
       <Link href="/events">
      
-          <img
-            src='/images/image.png'
+          <Image
+            src={KnowMoreImage}
             alt="Know More"
             width={150}  
             height={50}  

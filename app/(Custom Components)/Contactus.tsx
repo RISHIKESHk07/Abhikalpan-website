@@ -1,6 +1,6 @@
-import card from "@/public/images/Register.png";
-import phone from "@/public/images/Vector.png";
-import email from "@/public/images/Group.png";
+import card from "@/public/images/ContactCard.png";
+import phone from "@/public/images/Phone.png";
+import email from "@/public/images/Email.png";
 import Image from "next/image";
 
 export default function ContactUs() {
@@ -35,7 +35,7 @@ export default function ContactUs() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-teal-800 via-teal-600 to-teal-400 px-6 py-12">
+    <div className="min-h-screen flex flex-col items-center justify-center  px-6 py-12">
       <h1 className="text-5xl font-bold text-white mb-4">CONTACT US</h1>
       <p className="text-lg text-teal-100 mb-12">
         For any queries regarding any section mentioned, feel free to contact.
@@ -61,7 +61,7 @@ export default function ContactUs() {
             <div className="space-y-2 mb-10">
               <div className="flex items-center space-x-2 mb-4">
                 <Image
-                  src="/images/Vector.png"
+                  src="/images/Phone.png"
                   alt="Phone Icon"
                   width={20}
                   height={20}
@@ -71,7 +71,7 @@ export default function ContactUs() {
               </div>
               <div className="flex items-center space-x-2">
                 <Image
-                  src="/images/Group.png"
+                  src="/images/Email.png"
                   alt="Email Icon"
                   width={20}
                   height={20}

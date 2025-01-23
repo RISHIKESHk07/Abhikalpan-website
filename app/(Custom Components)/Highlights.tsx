@@ -1,5 +1,5 @@
 import React from "react";
-import { Card,CardTitle, CardContent } from "../(Custom Components)/ui/card";
+import { Card, CardTitle, CardContent } from "../(Custom Components)/ui/card";
 
 interface CardItem {
   title: string;
@@ -14,7 +14,7 @@ export default function Highlights() {
   });
 
   return (
-    <section className="bg-gradient-to-b from-gray-800 to-teal-600 p-8 min-h-screen flex flex-col items-center">
+    <section className=" p-8 min-h-screen flex flex-col items-center">
 
       <h1 className="text-4xl font-bold text-white mb-10">Highlights</h1>
 

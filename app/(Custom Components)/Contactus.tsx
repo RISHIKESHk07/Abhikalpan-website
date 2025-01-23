@@ -60,7 +60,7 @@ export default function ContactUs() {
                 {contact.name}
               </div>
               <div className="mb-1 flex flex-col gap-3">
-                <div className="flex items-center space-x-2 mb-">
+                <div className="flex items-center space-x-2 mb-4">
                   <Image
                     src="/images/Vector.png"
                     alt="Phone Icon"

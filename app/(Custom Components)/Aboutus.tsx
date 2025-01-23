@@ -1,28 +1,29 @@
 import React from "react";
 import Image from "next/image";
 
-
-
 const AboutUs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-r flex items-center text-left gap-[20px] m-0">
       <div className="p-8 text-left">
         {/* Title */}
-        <h1 className="text-5xl text-white font-bold mb-6">What is Abhikalpan?</h1>
+        <h1 className="text-5xl text-white font-bold mb-6">
+          What is Abhikalpan?
+        </h1>
         <p className="text-lg text-white max-w-2xl mx-auto mb-8">
-          ABHIKALPAN is the annual technical fest of IIITDM Jabalpur, an institute
-          which boasts of technical superiority and innovation in what it builds.
-          It’s central India’s biggest technical extravaganza for creating, nurturing
-          and fueling one’s interest in various domains of computer science, robotics,
-          electronics, gaming and design. In conjunction with the various technical
-          events, various informal events keep the fest alive. The events that invite
-          the footfall of thousands include Robowar, Circuit master, Brand presentation,
-          Astronomy quiz amongst others.
+          ABHIKALPAN is the annual technical fest of IIITDM Jabalpur, an
+          institute which boasts of technical superiority and innovation in what
+          it builds. It’s central India’s biggest technical extravaganza for
+          creating, nurturing and fueling one’s interest in various domains of
+          computer science, robotics, electronics, gaming and design. In
+          conjunction with the various technical events, various informal events
+          keep the fest alive. The events that invite the footfall of thousands
+          include Robowar, Circuit master, Brand presentation, Astronomy quiz
+          amongst others.
         </p>
         <div className="flex gap-4">
           <button>
             <Image
-              src='/images/twitter.png'
+              src="/images/twitter.png"
               alt="Twitter"
               width={40}
               height={40}

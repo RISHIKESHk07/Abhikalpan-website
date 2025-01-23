@@ -1,5 +1,6 @@
 import React from "react";
-import { Card, CardTitle, CardContent } from "../(Custom Components)/ui/card";
+
+import { Card,CardTitle, CardContent } from "../(Custom Components)/ui/card";
 
 interface CardItem {
   title: string;

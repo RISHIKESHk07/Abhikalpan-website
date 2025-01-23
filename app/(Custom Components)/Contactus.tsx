@@ -36,8 +36,8 @@ export default function ContactUs() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center  px-6 py-12">
-      <h1 className="text-5xl font-bold text-white mb-4">CONTACT US</h1>
-      <p className="text-lg text-teal-100 mb-12">
+      <h1 className="text-5xl font-bold font-aporo text-white mb-4">CONTACT US</h1>
+      <p className="text-lg font-hellvitica text-teal-100 mb-12">
         For any queries regarding any section mentioned, feel free to contact.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -52,10 +52,10 @@ export default function ContactUs() {
               backgroundPosition: "center",
             }}
           >
-            <div className="absolute top-11 right-20 text-teal-900 px-3 py-1 rounded-lg text-sm">
+            <div className="absolute top-[68px] font-hellvitica sm:top-11 right-12 sm:right-20 text-teal-900 px-3 py-1 rounded-lg text-sm">
               {contact.role}
             </div>
-            <h2 className="text-2xl font-bold text-white mt-auto mb-20">
+            <h2 className="text-3xl font-genos text-white mt-auto mb-20">
               {contact.name}
             </h2>
             <div className="space-y-2 mb-10">
@@ -67,7 +67,7 @@ export default function ContactUs() {
                   height={20}
                   className="w-5 h-5"
                 />
-                <p className="text-white">{contact.phone}</p>
+                <p className="text-white font-hellvitica">{contact.phone}</p>
               </div>
               <div className="flex items-center space-x-2">
                 <Image
@@ -77,7 +77,7 @@ export default function ContactUs() {
                   height={20}
                   className="w-5 h-5"
                 />
-                <p className="text-white">{contact.email}</p>
+                <p className="text-white font-hellvitica">{contact.email}</p>
               </div>
             </div>
           </div>

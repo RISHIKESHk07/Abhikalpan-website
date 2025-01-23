@@ -36,9 +36,9 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-50`}
       >
-        <div className="flex flex-col items-center py-8">
+        <div className="flex flex-col font-genos items-center py-8">
           <Image src={Logo} alt="logo" className="w-20 h-auto mb-6" />
-          <nav className="flex flex-col gap-4 text-lg">
+          <nav className="flex font-genos flex-col gap-4 text-lg">
             <Link href="/" onClick={toggleSidebar}>
               Home
             </Link>

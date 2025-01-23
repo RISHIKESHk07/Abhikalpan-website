@@ -5,7 +5,7 @@ export default function Footer() {
         
         <div className="flex flex-col items-start space-y-6 md:w-1/2">
           <img
-            src="/assets/Logo.png"
+            src="/assets/AbhikalpanLogo.png"
             alt="Abhikalpan Logo"
             className="h-32 md:h-40"
           />
@@ -48,7 +48,7 @@ export default function Footer() {
               />
             </a>
           </div>
-          <p className="text-sm">&copy; 2025 Abhikalpan, All rights reserved</p>
+          <p className="text-sm font-hellvitica">&copy; 2025 Abhikalpan, All rights reserved</p>
         </div>
 
         <div className="flex flex-col items-end space-y-6 md:w-1/2">
@@ -57,7 +57,7 @@ export default function Footer() {
             className="self-end text-right"
           >
             <img
-              src="/assets/image.png"
+              src="/assets/RegisterNOW.png"
               alt="Register Now"
               className="h-14 md:h-19 hover:opacity-90"
             />
@@ -70,7 +70,7 @@ export default function Footer() {
               />
             </a>
           </div>
-          <div className="text-end text-sm">
+          <div className="text-end font-hellvitica text-sm">
             <p>Designed in collaboration with Department of Design IIITDMJ</p>
             <p>Developed by the Technical Fraternity IIITDMJ</p>
           </div>

@@ -16,7 +16,7 @@ const GalleryPage: FC = () => {
     <div className=" text-white min-h-screen py-12 px-4">
 
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold tracking-wide">GALLERY</h1>
+        <h1 className="text-6xl font-bold font-aporo tracking-wide">GALLERY</h1>
       </div>
 
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -33,7 +33,7 @@ const GalleryPage: FC = () => {
         ))}
       </div>
 
-      <div className="mt-12 text-center text-lg">
+      <div className="mt-12 text-center font-hellvitica text-lg">
         <p>
           ABHIKALPAN is the annual technical fest of IIITDM Jabalpur, an institute
           which boasts of technical superiority and innovation in what it builds.

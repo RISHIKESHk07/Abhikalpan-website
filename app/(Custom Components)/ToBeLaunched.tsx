@@ -10,9 +10,9 @@ const tobelaunched = () => {
   return (
     <div className="h-screen w-full content-center">
       <div className="flex flex-col items-center justify-center text-white py-[5vh] gap-2 text-center">
-        <h1 className="text-5xl">TO BE LAUNCHED SOON...</h1>
+        <h1 className="text-5xl font-aporo">TO BE LAUNCHED SOON...</h1>
 
-        <p className="text-center mt-4">
+        <p className="text-center mt-4 font-hellvitica">
           This page is under construction, but just like the evolution from
           steam-powered <br /> marvels to neon-lit cyber realms, we&apos;re building
           something extraordinary. Stay <br /> tuned as we gear up to bring the

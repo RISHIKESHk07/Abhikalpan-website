@@ -8,8 +8,8 @@ import Image from "next/image";
 
 const tobelaunched = () => {
   return (
-    <div className="bg-bg-img bg-cover bg-center h-screen w-full content-center">
-      <div className="flex flex-col items-center justify-center text-white py-[12vh] gap-6 text-center">
+    <div className="bg-[url('/assets/background.png')] bg-cover bg-center h-screen w-full content-center">
+      <div className="flex flex-col items-center justify-center text-white py-[5vh] gap-6 text-center">
         <h1 className="text-5xl">TO BE LAUNCHED SOON...</h1>
 
         <p className="text-center mt-4">
@@ -25,14 +25,14 @@ const tobelaunched = () => {
       </Link>
 
       <div className="flex justify-center gap-6 mt-6 scale-[0.7]">
-        <Link href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+        <Link href="https://www.linkedin.com/in/abhikalpan-iiitdmj-2k19?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
           <Image src={LinkedIn} alt="LinkedIn" />
         </Link>
-        <Link href="https://twitter.com/" target="_blank" rel="noreferrer">
+        <Link href="https://x.com/Abhikalpanfest?t=k9TVaA4kf8Zwb6yrR-xK3Q&s=09" target="_blank" rel="noreferrer">
           <Image src={Twitter} alt="Twitter" />
         </Link>
         <Link
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/abhikalpan_iiitdmj?igsh=MTI3cWo2ODd4dTFtZQ=="
           target="_blank"
           rel="noreferrer"
         >

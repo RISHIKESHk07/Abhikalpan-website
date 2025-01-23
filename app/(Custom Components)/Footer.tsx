@@ -72,7 +72,7 @@ export default function Footer() {
               width={300}
               height={300}
               alt="Register Now"
-              className="h-20 hover:opacity-90"
+              className="h-20 hover:opacity-90 hidden"
             />
           </a>
 

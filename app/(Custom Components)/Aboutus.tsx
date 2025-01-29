@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r flex items-center text-left gap-[20px] m-0">
+    <div className="min-h-screen flex items-center text-left gap-[20px] m-0">
       <div className="p-8 text-left">
         {/* Title */}
         <h1 className="text-5xl text-white font-bold mb-6">
@@ -23,7 +23,7 @@ const AboutUs = () => {
         <div className="flex gap-4">
           <button>
             <Image
-              src="/images/twitter.png"
+              src='/images/twitter.png'
               alt="Twitter"
               width={40}
               height={40}

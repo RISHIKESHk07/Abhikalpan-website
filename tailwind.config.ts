@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        copper: '#E4B882', 
       },
       borderRadius: {
         lg: "var(--radius)",

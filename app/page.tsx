@@ -7,8 +7,8 @@ import VideoComponent from "./(Custom Components)/Video";
 
 export default function Home() {
   return (
-    <div className="">
-      <Navbar className="sticky top-0 z-50" />
+    <div className="min-h-screen bg-gradient-to-b from-teal-600 via-copper to-teal-900">
+      <Navbar />
       <div>
         <ToBeLaunched />
         <GalleryPage />

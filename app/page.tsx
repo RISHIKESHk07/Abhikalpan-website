@@ -8,7 +8,7 @@ import Sponsors from "./(Custom Components)/Sponsors"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-teal-600 via-copper to-teal-900">
+    <div className="min-h-screen bg-[#002b36]">
       <Navbar />
       <div>
         <Sponsors/>

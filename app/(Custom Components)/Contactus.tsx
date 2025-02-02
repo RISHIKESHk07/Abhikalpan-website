@@ -1,6 +1,6 @@
-import card from "@/public/images/Register.png";
-import phone from "@/public/images/Vector.png";
-import email from "@/public/images/Group.png";
+import card from "@/public/images/ContactCard.png";
+import phone from "@/public/images/Phone.png";
+import email from "@/public/images/Email.png";
 import Image from "next/image";
 
 export default function ContactUs() {
@@ -35,9 +35,9 @@ export default function ContactUs() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-teal-800 via-teal-600 to-teal-400 px-6 py-12 text-center">
-      <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">CONTACT US</h1>
-      <p className="text-lg text-teal-100 mb-12">
+    <div className="min-h-screen flex flex-col items-center justify-center  px-6 py-12">
+      <h1 className="text-5xl font-bold font-aporo text-white mb-4">CONTACT US</h1>
+      <p className="text-lg font-hellvitica text-teal-100 mb-12">
         For any queries regarding any section mentioned, feel free to contact.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -52,34 +52,32 @@ export default function ContactUs() {
               backgroundPosition: "center",
             }}
           >
-            <div className="absolute top-[68px] sm:top-11 right-12 sm:right-20 text-teal-900 px-3 py-1 rounded-lg text-sm">
+            <div className="absolute top-[68px] font-hellvitica sm:top-11 right-12 sm:right-20 text-teal-900 px-3 py-1 rounded-lg text-sm">
               {contact.role}
             </div>
-            <div>
-              <div className="text-2xl font-bold text-white mb-5 mt-[75px]">
-                {contact.name}
+            <h2 className="text-3xl font-genos text-white mt-auto mb-20">
+              {contact.name}
+            </h2>
+            <div className="space-y-2 mb-10">
+              <div className="flex items-center space-x-2 mb-4">
+                <Image
+                  src="/images/Phone.png"
+                  alt="Phone Icon"
+                  width={20}
+                  height={20}
+                  className="w-5 h-5"
+                />
+                <p className="text-white font-hellvitica">{contact.phone}</p>
               </div>
-              <div className="mb-1 flex flex-col gap-3">
-                <div className="flex items-center space-x-2 mb-4">
-                  <Image
-                    src="/images/Vector.png"
-                    alt="Phone Icon"
-                    width={20}
-                    height={20}
-                    className="w-5 h-5"
-                  />
-                  <p className="text-white">{contact.phone}</p>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Image
-                    src="/images/Group.png"
-                    alt="Email Icon"
-                    width={20}
-                    height={20}
-                    className="w-5 h-5"
-                  />
-                  <p className="text-white">{contact.email}</p>
-                </div>
+              <div className="flex items-center space-x-2">
+                <Image
+                  src="/images/Email.png"
+                  alt="Email Icon"
+                  width={20}
+                  height={20}
+                  className="w-5 h-5"
+                />
+                <p className="text-white font-hellvitica">{contact.email}</p>
               </div>
             </div>
           </div>

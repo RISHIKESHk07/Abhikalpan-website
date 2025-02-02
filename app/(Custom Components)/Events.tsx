@@ -21,7 +21,7 @@ export default function Events() {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-gray-800 to-teal-700 p-8 min-h-screen flex flex-col items-center">
+    <section className="p-8 min-h-screen flex flex-col items-center">
       <h1 className="text-4xl font-bold text-white mb-10">Events</h1>
 
       <div className="columns-2 sm:columns-3 lg:columns-5 gap-6 w-full max-w-7xl">

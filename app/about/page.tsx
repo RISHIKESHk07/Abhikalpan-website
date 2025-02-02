@@ -146,7 +146,7 @@ const Abt = () => {
             design <br />
             contests, hackathons, and expert-led seminars. Over the years,
             Abhikalpan <br /> has become a landmark event, embodying IIITDM
-            Jabalpur's <br />
+            Jabalpur&apos;s <br />
             commitment to advancing technology and design.
           </div>
 
@@ -172,7 +172,7 @@ const Abt = () => {
               </h1>
               <h1 className="text-white font-aporo font-normal text-[52px] translate-x-[25%] translate-y-[15%]">
                 <br />
-                ABHIKALPAN'S THEME
+                ABHIKALPAN&apos;S THEME
               </h1>
 
               <p className="text-white text-[19px] font-hellvitica font-light translate-x-[-62vh] translate-y-[18.5vh]">
@@ -189,8 +189,8 @@ const Abt = () => {
           </div>
           <div className="text-white font-hellvitica text-[20px] translate-x-[9vh] translate-y-9">
             <p>
-              Abhikalpan'25 celebrates the transformative journey of technology{" "}
-              <br />
+              Abhikalpan2&apos;5 celebrates the transformative journey of
+              technology <br />
               and design, bridging the past, present, and future. From AI and{" "}
               <br />
               quantum computing to sustainable design and smart cities, <br />

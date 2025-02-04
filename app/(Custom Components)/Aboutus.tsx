@@ -1,15 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import right_circle from '@/public/images/right_circle.svg'
+import left_circle from '@/public/images/left_circle.svg'
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen flex items-center text-left gap-[20px] m-0">
+    <div className=" flex items-center text-left gap-[20px] bg-pink-400/400 pb-52 relative mt-[70vw] bg-pink-500/500">
       <div className="p-8 text-left">
         {/* Title */}
-        <h1 className="text-5xl text-white font-bold mb-6">
+        <h1 className="text-[4vw] text-white font-bold mb-6 font-aporo">
           What is Abhikalpan?
         </h1>
-        <p className="text-lg text-white max-w-2xl mx-auto mb-8">
+        <p className="text-[1.8vw] text-white w-[60%]  mb-8">
           ABHIKALPAN is the annual technical fest of IIITDM Jabalpur, an
           institute which boasts of technical superiority and innovation in what
           it builds. It’s central India’s biggest technical extravaganza for
@@ -25,8 +27,8 @@ const AboutUs = () => {
             <Image
               src='/images/twitter.png'
               alt="Twitter"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
               className="hover:opacity-80"
             />
           </button>
@@ -34,8 +36,8 @@ const AboutUs = () => {
             <Image
               src="/images/instagram.png"
               alt="Instagram"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
               className="hover:opacity-80"
             />
           </button>
@@ -43,29 +45,25 @@ const AboutUs = () => {
             <Image
               src="/images/linkedin.png"
               alt="LinkedIn"
-              width={40}
-              height={40}
+              width={50}
+              height={50}
               className="hover:opacity-80"
             />
           </button>
         </div>
       </div>
       <div className="flex items-center justify-end h-screen relative">
-        <Image
-          className="absolute top-0 left-0 w-auto h-auto"
-          src="/images/img1.png"
-          alt="text"
-          width={50}
-          height={50}
-        />
-        <Image
-          className="w-full h-auto"
-          src="/images/img2.png"
-          alt="circle"
-          width={50}
-          height={50}
-        />
       </div>
+      <Image
+        className="absolute top-[2vw] -right-[10vw] h-[43vw]"
+        src={right_circle}
+        alt="circle"
+      />
+      <Image
+        className="absolute bottom-0 -left-10 h-[50vw]"
+        src={left_circle}
+        alt="circle"
+      />
     </div>
   );
 };

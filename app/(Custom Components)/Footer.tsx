@@ -5,7 +5,7 @@ export default function Footer() {
         
         <div className="flex flex-col items-start space-y-6 md:w-1/2">
           <img
-            src="/assets/AbhikalpanLogo.png"
+            src="/assets/AbhikalpanLogo.svg"
             alt="Abhikalpan Logo"
             className="h-32 md:h-40"
           />

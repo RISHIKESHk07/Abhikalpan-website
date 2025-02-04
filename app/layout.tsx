@@ -32,7 +32,7 @@ const hellvitica = localFont({
 });
 
 const edwardian = localFont({
-  src:"../public/fonts/Edwardian_Script_ITC.ttf",
+  src:"../public/fonts/Edwardian.ttf",
   variable: "--font-edwardian",
   weight: "100 900",
 });

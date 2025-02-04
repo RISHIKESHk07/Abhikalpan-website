@@ -20,3 +20,8 @@ body {
     --radius: 0.5rem;
   }
 }
+
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

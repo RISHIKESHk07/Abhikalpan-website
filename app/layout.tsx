@@ -31,6 +31,12 @@ const hellvitica = localFont({
   weight: "100 900",
 });
 
+const edwardian = localFont({
+  src:"../public/fonts/Edwardian_Script_ITC.ttf",
+  variable: "--font-edwardian",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "AbhiKalapan",
   description: "The official AbhiKalpan Website",
@@ -44,7 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${Genos.variable} ${hellvitica.variable} ${Aporo.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${Genos.variable} ${hellvitica.variable} ${Aporo.variable} ${edwardian.variable} antialiased`}
       >
         {children}
       </body>

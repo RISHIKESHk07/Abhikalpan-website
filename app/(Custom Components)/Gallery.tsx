@@ -13,7 +13,7 @@ const GalleryPage: FC = () => {
   ];
 
   return (
-    <div className=" text-white min-h-screen py-12 px-4">
+    <div className=" text-white min-h-screen py-12 px-4 mt-10">
 
       <div className="text-center mb-12">
         <h1 className="text-6xl font-bold font-aporo tracking-wide">GALLERY</h1>

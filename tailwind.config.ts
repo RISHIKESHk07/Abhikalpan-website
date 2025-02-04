@@ -20,6 +20,7 @@ const config: Config = {
       },
       fontFamily:{
          hellvitica:["var(--font-hellvitica)"],
+         edwardian:["var(--font-edwardian)"],
          aporo:["var(--font-aporo)"],
          genos:["var(--font-genos)"],
       }

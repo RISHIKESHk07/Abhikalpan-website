@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
-import Logo from "@/public/assets/AbhikalpanLogo.png";
+import Logo from "@/public/assets/AbhikalpanLogo.svg";
 import Navbr from "@/public/images/navbar_bg_img.svg";
 import Union from "@/public/assets/NavbarLine.png";
 import Link from "next/link";

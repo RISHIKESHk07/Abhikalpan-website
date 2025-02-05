@@ -8,18 +8,12 @@ import Logo from "@/public/assets/AbhikalpanLogo.svg";
 import Navbr from "@/public/images/navbar_bg_img.svg";
 import Union from "@/public/assets/NavbarLine.png";
 import Link from "next/link";
-import { useRouter } from "next/navigation"; 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
-  };
-
-  const handleNavigation = (path: string) => {
-    router.push(path); 
-    setIsOpen(false); 
   };
 
   return (
@@ -42,17 +36,26 @@ const Navbar = () => {
           } transition-transform duration-300 ease-in-out z-50`}
       >
         <div className="flex flex-col font-genos items-center py-8">
-          <Image src={Logo} alt="logo" className="w-auto h-auto mb-6 max-w-[70%]" />
+          <Image src={Logo} alt="logo" className="w-20 h-auto mb-6" />
           <nav className="flex font-genos flex-col gap-4 text-lg">
-            {["About", "Events", "Sponsors", "People", "Contact"].map((item) => (
-              <button
-                key={item}
-                onClick={() => handleNavigation(`/${item}`)}
-                className="cursor-pointer text-white hover:text-gray-300"
-              >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
-              </button>
-            ))}
+            <Link href="/" onClick={toggleSidebar}>
+              Home
+            </Link>
+            <Link href="/about" onClick={toggleSidebar}>
+              About
+            </Link>
+            <Link href="/events" onClick={toggleSidebar}>
+              Events
+            </Link>
+            <Link href="/sponsors" onClick={toggleSidebar}>
+              Sponsors
+            </Link>
+            <Link href="/people" onClick={toggleSidebar}>
+              People
+            </Link>
+            <Link href="/contact" onClick={toggleSidebar}>
+              Contact
+            </Link>
           </nav>
         </div>
       </div>

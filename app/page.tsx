@@ -5,6 +5,7 @@ import Events from "./(Custom Components)/Events";
 import Highlights from "./(Custom Components)/Highlights";
 import Schedule from "./(Custom Components)/Schedule";
 import AboutUs from "./(Custom Components)/Aboutus";
+import SponsorsPage from "./(Custom Components)/Sponsors";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Main />
         <AboutUs/>
         <Schedule/>
+        <SponsorsPage/>
         <Highlights/>
         <Events/>
         <Footer />

@@ -23,6 +23,7 @@ const config: Config = {
          edwardian:["var(--font-edwardian)"],
          aporo:["var(--font-aporo)"],
          genos:["var(--font-genos)"],
+         inter:["var(--font-inter)"],
       }
      
     },

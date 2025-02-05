@@ -75,14 +75,12 @@ const eventData5feb = eventData.filter((event) => event.date === "5 Feb '25");
 
 const Schedule: React.FC = () => {
   return (
-    <section className="w-full min-h-screen py-8 relative">
+    <section className="w-full py-8 relative">
       {/* Header */}
-      <div className="text-center md:text-left px-4 md:px-[8rem]">
-        <h1 className="text-4xl md:text-6xl font-genos text-white">
-          Schedule
-        </h1>
+      <div className="text-center pb-[5vw] pl-[9vw] font-inter relative md:text-[4vw] text-[7vw]">
+          <h1 className='absolute text-white z-50'>Schedule</h1>
+          <h1 className='absolute text-[#01F8FF] blur-sm z-0'>Schedule</h1>
       </div>
-
       {/* Dates */}
       <div className="flex flex-col md:flex-row justify-between md:justify-start gap-4 md:gap-[29rem] px-4 md:px-[8rem] mt-8 mb-4">
         <p className="font-medium text-white font-genos text-3xl md:text-5xl text-center md:text-left">
@@ -161,12 +159,13 @@ const Schedule: React.FC = () => {
         </div>  
       </div>
 
-      <div className='md:w-[22vw] w-[33vw]  bg-blue-600/600 flex items-center justify-center absolute right-[10vw] -bottom-14'>
+      <div className='md:w-[22vw] w-[33vw]  bg-blue-600/600 flex items-center justify-center absolute right-[10vw] -bottom-[8vw]'>
         <Image
         alt='Know More'
         src={KnowMoreImage}
+        className='w-full'
         />
-        <p className='absolute md:text-[2vw] text-[4vw] text-[#FFFFFF] font-genos'>Know More</p>
+        <p className='absolute md:text-[2vw] text-[4vw]  text-[#FFFFFF] font-genos'>Know More</p>
       </div>
     </section>
   );

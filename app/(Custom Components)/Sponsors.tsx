@@ -11,30 +11,39 @@ const SponsorsPage = () => {
       <div className="container mx-auto space-y-16">
 
         
-      <header className="text-left space-y-6">
-  <h1 className="text-6xl md:text-7xl font-bold tracking-widest font-aporo uppercase text-white flex items-center">
+      <header className="text-left space-y-3 xs:space-y-4 sm:space-y-6 px-3 xs:px-4 sm:px-6 md:px-8">
+  <h1 
+    className="text-4xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-widest 
+               font-aporo uppercase text-white flex items-center flex-wrap"
+  >
     Sponsors
     <Image
       src="/images/design.png"
       alt="line"
-      width={180}
-      height={180}
-      className="ml-4"  
+      width={150} 
+      height={150}
+      className=" max-[800px]:hidden md:ml-3 ml-1 xs:ml-4 sm:ml-4 xs:w-20 sm:w-24 md:w-28 lg:w-36"   
     />
   </h1>
-  <p className="text-lg font-hellvitica text-teal-400 max-w-4xl">
-    From technological giants and design pioneers to local enterprises,
-    our sponsors have played a pivotal role in empowering students and
-    showcasing cutting-edge advancements. Their support has made it
-    possible to bridge the gap between academia and industry, fostering
+
+  <p 
+    className="text-lg xs:text-base sm:text-lg md:text-xl font-hellvitica text-teal-400 
+               max-w-xl xs:max-w-sm sm:max-w-2xl md:max-w-4xl"
+  >
+    From technological giants and design pioneers to local enterprises, 
+    our sponsors have played a pivotal role in empowering students and 
+    showcasing cutting-edge advancements. Their support has made it 
+    possible to bridge the gap between academia and industry, fostering 
     a thriving ecosystem of talent, ideas, and opportunities.
   </p>
 </header>
 
 
+
+
         
         <section
-  className="p-6 rounded-xl relative flex flex-col items-end"
+  className=" p-6 xs:p-6 rounded-xl relative flex flex-col items-end hide-bg"
   style={{
     backgroundImage: `url(${cardthreee.src})`,
     backgroundSize: "contain",
@@ -44,38 +53,40 @@ const SponsorsPage = () => {
   }}
 >
  
-  <div className=" mt-6">
-    <h2 className="text-6xl mr-56 text-left font-aporo uppercase text-teal-300">
+  <div className=" mt-6 xs:mt-6  md:text-left">
+    <p className="text-3xl xs:text-xl md:text-6xl md:text-left font-aporo uppercase text-teal-300">
       Title Sponsors
-    </h2>
+    </p>
     <Image
       src="/images/underline.png"
       alt="underline"
       width={0}
       height={0}
-      className="w-auto h-auto"
+      className=" w-auto h-auto md:mx-0"
     />
   </div>
 
  
-  <div className="flex flex-col md:flex-row items-center justify-center mt-10">
+  <div className="flex flex-col flex-wrap md:flex-nowrap md:flex-row items-center xs:mt-10 justify-center mt-5">
   
     <Image
       src="/images/cocacola.png"
       alt="Coca-Cola Logo"
       width={200}
       height={200}
-      className="mb-6 md:mb-0 md:mr-8"
+      className="max-[800px]:hidden w-24 xs:w-32 sm:w-40 md:w-48 lg:w-56 mt-20 md:mt-1 md:mb-0 md:mr-8"
     />
 
    
-    <div className="max-w-lg text-teal-300 text-center md:text-left">
-      <p className="text-lg text-white leading-relaxed">
+    <div className="max-w-xs  xs:max-w-sm sm:max-w-lg text-teal-300 text-left md:text-left">
+      <p className="text-lg xs:text-base text-white leading-relaxed">
         From technological giants and design pioneers to local enterprises,
         our sponsors have played a pivotal role in empowering students and
-        showcasing cutting-edge advancements. Their support has made it
+        showcasing cutting-edge advancements. 
+        Their support has made it
         possible to bridge the gap between academia and industry, fostering
         a thriving ecosystem of talent, ideas, and opportunities.
+        
       </p>
     </div>
   </div>
@@ -84,7 +95,7 @@ const SponsorsPage = () => {
 
 <section className="grid grid-cols-1 sm:grid-cols-2 gap-8">
   <div
-    className="rounded-xl flex items-center justify-center p-6"
+    className="rounded-xl flex items-center justify-center md:p-6 hide-bg"
     style={{
       backgroundImage: `url(${cardtwoo.src})`,
       backgroundSize: "contain", 
@@ -98,10 +109,10 @@ const SponsorsPage = () => {
       alt="line"
       width={180}
       height={180}
-      className="mr-8"  
+      className=" max-[800px]:hidden mr-8"  
     />
     <div className="max-w-sm text-white text-left space-y-4">
-      <h3 className="text-4xl font-aporo uppercase">
+      <h3 className="text-2xl md:text-4xl font-aporo uppercase ">
         Associate Sponsors
       </h3>
       <Image
@@ -111,14 +122,14 @@ const SponsorsPage = () => {
         height={0}
         className="w-full h-auto"
       />
-      <p className="align-right">
+      <p className="align-right text-md">
       From technological giants and design pioneers to local enterprises, our sponsors have played a pivotal role in empowering students and showcasing cutting-edge advancements. Their support has made it possible to bridge the gap between academia and industry, fostering a thriving ecosystem of talent, ideas, and opportunities.
       </p>
     </div>
   </div>
 
   <div
-    className="rounded-xl flex items-center justify-center p-6"
+    className="rounded-xl flex flex-col md:flex-row items-center justify-center p-6 hide-bg"
     style={{
       backgroundImage: `url(${cardonee.src})`,
       backgroundSize: "contain",  
@@ -127,8 +138,8 @@ const SponsorsPage = () => {
       minHeight: "100px",  
     }}
   >
-    <div className="max-w-sm text-white ">
-      <h3 className="text-5xl text-right ml-40 font-aporo uppercase mb-4">
+    <div className="max-w-sm text-white text-center md:text-right  space-y-4">
+      <h3 className="text-2xl md:text-4xl font-aporo uppercase ">
         Apparel Sponsors
       </h3>
       <Image
@@ -136,14 +147,14 @@ const SponsorsPage = () => {
         alt="line"
         width={0}
         height={0}
-        className="w-full h-auto ml-40 mb-8"
+        className="w-full h-auto md:ml-40 mb-8"
       />
       <Image
         src="/images/SBI.png"
         alt="SBI Logo"
         width={300}
         height={300}
-        className="mb-4 ml-44 md:mb-0"
+        className="mb-4 md:mb-0 w-auto h-auto lg:ml-36 mx-auto "
       />
     </div>
   </div>

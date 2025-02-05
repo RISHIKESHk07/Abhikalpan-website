@@ -6,6 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black !important;
+  
 
 }
 
@@ -18,5 +19,20 @@ body {
 @layer base {
   :root {
     --radius: 0.5rem;
+  }
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 800px) {
+  .hide-bg {
+    background-image: none !important;
   }
 }

@@ -8,7 +8,7 @@ const page = () => {
     <>
       {/* Added overflow-hidden */}
       <Navbar />
-      <div className="flex justify-end m-10">
+      <div className="flex justify-end m-10 mt-[3vh] sm:mt-[30vh]">
         <img src="/images/About2.png" alt="" className="w-[15vw]" />
         <h1 className="font-aporo text-[28px] md:text-[85.6px] text-white">
           ABOUT US

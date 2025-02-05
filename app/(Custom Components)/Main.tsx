@@ -24,7 +24,7 @@ const Main = () => {
         </div>
         <div className="absolute self-end w-[38vw] mb-1 flex items-center justify-center">
           <Image
-            className=""
+            className=" w-[38vw]"
             src={register_now_bg}
             alt="registenow_button"
           />
@@ -39,7 +39,7 @@ const Main = () => {
           <Image
             src={eventschedule}
             alt="event_schedule"
-            className="relative"
+            className="relative w-full"
           />
           <p className="absolute text-[2.2vw] text-[#FFFFFF] font-genos">
             Event Schedule

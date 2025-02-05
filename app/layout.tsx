@@ -37,6 +37,12 @@ const edwardian = localFont({
   weight: "100 900",
 });
 
+const inter = localFont({
+  src:"../public/fonts/Inter_18pt-Regular.ttf",
+  variable: "--font-inter",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "AbhiKalapan",
   description: "The official AbhiKalpan Website",
@@ -50,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${Genos.variable} ${hellvitica.variable} ${Aporo.variable} ${edwardian.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${Genos.variable} ${hellvitica.variable} ${Aporo.variable} ${edwardian.variable} ${inter.variable} antialiased`}
       >
         {children}
       </body>

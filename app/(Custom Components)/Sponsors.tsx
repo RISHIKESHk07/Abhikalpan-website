@@ -7,7 +7,7 @@ import cardfourr from "@/public/images/spcard4.png";
 
 const SponsorsPage = () => {
   return (
-    <div className="min-h-screen bg-[#002b36] text-white px-8 pt-4 pb-16">
+    <div className="min-h-screen text-white px-8 pt-40 pb-16">
       <div className="container mx-auto space-y-16">
 
         

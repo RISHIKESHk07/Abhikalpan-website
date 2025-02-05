@@ -35,4 +35,8 @@ html, body {
   .hide-bg {
     background-image: none !important;
   }
+
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }

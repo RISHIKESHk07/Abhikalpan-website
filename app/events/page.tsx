@@ -560,7 +560,7 @@ function page() {
         </section>
       </section>
 
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

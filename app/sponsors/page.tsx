@@ -46,7 +46,7 @@ const SponsorsPage = () => {
   className=" p-6 xs:p-6 rounded-xl relative flex flex-col items-end hide-bg"
   style={{
     backgroundImage: `url(${cardthreee.src})`,
-    backgroundSize: "95% 80%", // Stretch height to 200% while keeping width 100%
+    backgroundSize: "95% 80%", 
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right",
     minHeight: "500px",

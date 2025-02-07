@@ -35,8 +35,7 @@ function page() {
             backgroundImage: `url(${Container.src})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            maxWidth: "740px",
-            maxHeight: "750px",
+            
           }}
         >
           <div className="flex md:flex-row items-center justify-between mx-auto">

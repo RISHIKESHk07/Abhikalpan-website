@@ -46,7 +46,7 @@ const SponsorsPage = () => {
   className=" p-6 xs:p-6 rounded-xl relative flex flex-col items-end hide-bg"
   style={{
     backgroundImage: `url(${cardthreee.src})`,
-    backgroundSize: "contain",
+    backgroundSize: "95% 80%", // Stretch height to 200% while keeping width 100%
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right",
     minHeight: "500px",
@@ -98,7 +98,7 @@ const SponsorsPage = () => {
     className="rounded-xl flex items-center justify-center md:p-6 hide-bg"
     style={{
       backgroundImage: `url(${cardtwoo.src})`,
-      backgroundSize: "contain", 
+      backgroundSize: "95% 100%",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "right",
       minHeight: "500px",  
@@ -162,18 +162,17 @@ const SponsorsPage = () => {
 
 
      
-<section className="flex flex-col items-center space-y-8">
-  <div className="flex flex-wrap justify-center gap-8 w-full px-4">
+<section className="flex flex-col mt-4 sm:mt-0 items-center space-y-2 sm:space-y-8">
+  <div className="flex flex-wrap justify-center gap-2 sm:gap-8 w-full px-4">
     {[...Array(3)].map((_, i) => (
-      <div
+      <div className="min-h-[300px] sm:min-h-[420px]"
         key={i}
-        className="rounded-xl p-6"
+        
         style={{
           backgroundImage: `url(${cardfourr.src})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          minHeight: "500px",
           width: "100%", 
           maxWidth: "380px", 
         }}

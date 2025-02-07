@@ -5,7 +5,7 @@ import Events from "@/app/events/page";
 import Highlights from "./(Custom Components)/Highlights";
 import Schedule from "./(Custom Components)/Schedule";
 import AboutUs from "./(Custom Components)/Aboutus";
-import SponsorsPage from "./(Custom Components)/Sponsors";
+import SponsorsPage from "@/app/sponsors/page";
 import GalleryPage from "./(Custom Components)/Gallery";
 import Contact from "@/app/contact/page";
 

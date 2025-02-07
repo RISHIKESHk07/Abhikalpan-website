@@ -16,7 +16,7 @@ function page() {
       </div>
       <section>
         <section
-          className="w-[310px] md:w-[512px] h-[89px]"
+          className="w-[310px] md:w-[512px] h-[89px] ml-[30px]"
           style={{
             backgroundImage: `url(${Container.src})`,
             backgroundSize: "contain",
@@ -32,7 +32,7 @@ function page() {
           <PeopleCard />
           <PeopleCard />
         </section> */}
-        <section className="grid  place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px] overflow-y-auto max-h-[560px] p-[48px] mx-auto scrollbar-hide">
+        <section className="grid  place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px] overflow-y-auto max-h-[590px] p-[48px] mx-auto scrollbar-hide">
           <PeopleCard />
           <PeopleCard />
           <PeopleCard />
@@ -41,7 +41,29 @@ function page() {
           <PeopleCard />
         </section>
       </section>
-      {/* <Footer/> */}
+      <section>
+        <section
+          className="w-[310px] md:w-[512px] h-[89px] ml-auto mt-[100px]"
+          style={{
+            backgroundImage: `url(${Container.src})`,
+            backgroundSize: "contain",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <p className="font-aporo text-[19px] md:text-[34.95px] text-center leading-[75px] md:leading-[85px] lg:leading-[100px] pr-[100px] text-white">
+            COORDINATORS
+          </p>
+        </section>
+        <section className="grid place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px]  p-[48px] mx-auto scrollbar-hide mb-[100px]">
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
+          <PeopleCard />
+        </section>
+      </section>
+      <Footer />
     </section>
   );
 }

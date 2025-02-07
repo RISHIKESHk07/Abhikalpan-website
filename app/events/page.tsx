@@ -30,13 +30,11 @@ function page() {
       {/* LEFT-1 */}
       <section className="flex flex-wrap gap-[60px]">
         <section
-          className="mt-[100px] w-full md:w-[500px] lg:w-[700px]"
+          className="mt-[100px] w-full md:w-[558px] lg:w-[700px]"
           style={{
             backgroundImage: `url(${Container.src})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            maxWidth: "740px",
-            maxHeight: "650px",
             
           }}
         >
@@ -79,7 +77,11 @@ function page() {
             height={20}
             className="mb-[40px] mt-[30px] md:mt-[100px] w-[290px] md:w-[480px]"
           />
-          <Accordion type="single" collapsible className=" w-[290px] md:w-[480px]">
+          <Accordion
+            type="single"
+            collapsible
+            className=" w-[290px] md:w-[480px]"
+          >
             <AccordionItem value="item-1" className="border-none">
               <AccordionTrigger className="text-[#ACFDFF] font-aporo text-[24px] md:text-[32px] underline-none">
                 IOT WORKSHOP
@@ -294,8 +296,8 @@ function page() {
         </section>
       </section>
       {/*RIGH -1 */}
-      <section className="flex flex-wrap gap-[60px]">
-      <section className=" mx-auto md:ml-[352px]">
+      <section className="flex justify-end flex-wrap-reverse gap-[60px]">
+        <section className=" mx-auto md:mx-0">
           <Image
             src={Strip.src}
             alt="strip"
@@ -303,7 +305,11 @@ function page() {
             height={20}
             className="mb-[40px] mt-[30px] md:mt-[100px] w-[290px] md:w-[480px]"
           />
-          <Accordion type="single" collapsible className=" w-[290px] md:w-[480px]">
+          <Accordion
+            type="single"
+            collapsible
+            className=" w-[290px] md:w-[480px]"
+          >
             <AccordionItem value="item-1" className="border-none">
               <AccordionTrigger className="text-[#ACFDFF] font-aporo text-[24px] md:text-[32px] underline-none">
                 IOT WORKSHOP
@@ -517,14 +523,13 @@ function page() {
           </Accordion>
         </section>
         <section
-          className="mt-[100px] w-full md:w-[500px] lg:w-[700px]"
+          className="mt-[100px] w-full sm:w-[515px] md:w-[555px] lg:w-[700px]"
           style={{
             backgroundImage: `url(${Container2.src})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             maxWidth: "740px",
-            maxHeight: "650px",
-            
+            maxHeight: "750px",
           }}
         >
           <div className="flex md:flex-row items-center justify-between mx-auto">

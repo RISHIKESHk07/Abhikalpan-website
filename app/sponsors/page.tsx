@@ -43,7 +43,7 @@ const SponsorsPage = () => {
   className="sm:p-6 relative flex flex-col sm:items-end w-full h-[50vh] sm:h-[75vh]"
   style={{
     backgroundImage: `url(${cardthreee.src})`,
-    backgroundSize: "95% 80%", // Stretch height to 200% while keeping width 100%
+    backgroundSize: "95% 80%", 
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     width: "95vw",
@@ -56,7 +56,7 @@ const SponsorsPage = () => {
 
 
   <div className="relative md:text-left w-full flex flex-col items-center">
-    <h2 className="text-[26px] sm:text-[36px] lg:text-[52px] mt-[7vh] sm:mt-[9vh] md:mt-[5vh] font-aporo uppercase text-teal-300 sm:mr-[38vh] lg:mr-[38vh]">
+    <h2 className="text-[26px] sm:text-[36px] lg:text-[52px] mt-[7vh] sm:mt-[9vh] md:mt-[7vh] lg:mt-[4.5vh] font-aporo uppercase text-teal-300 sm:mr-[38vh] lg:mr-[38vh]">
       Title Sponsors
     </h2>
     <Image
@@ -103,8 +103,8 @@ const SponsorsPage = () => {
     }}
   >
     
-    <div className="max-w-sm lg:ml-10 text-white text-left ml-8 sm:ml-0 sm:text-left mt-0 mb-0 sm:space-y-4 sm:max-w-xl">
-      <h3 className="text-[16px] sm:text-2xl md:text-3xl font-aporo uppercase">
+    <div className="max-w-sm lg:ml-8 text-white text-left  sm:ml-0 sm:text-left mt-0 mb-0 sm:space-y-4 sm:max-w-xl">
+      <h3 className="text-[16px] sm:text-2xl md:text-3xl lg:text-2xl lg:mt-7 font-aporo uppercase">
         Associate Sponsors
       </h3>
       <Image
@@ -122,7 +122,7 @@ const SponsorsPage = () => {
       height={155}
       className="mr-2 sm:mr-0 sm:mb-4 sm:h-16 h-auto w-24 sm:w-36 md:w-auto lg:w-auto"
     />
-      <p className="text-[10px] mr-8 sm:text-[11px] md:text-[14px] lg:text-[14px] max-w-[44vw] sm:max-w-lg text-white leading-relaxed">
+      <p className="text-[10px] mr-8 sm:text-[11px] md:text-[13px] lg:text-[13px] max-w-[48vw] sm:max-w-xl text-white leading-relaxed">
         From technological giants and design pioneers to local enterprises, our sponsors have played a pivotal role in empowering students 
           <span className="text-left">
           and showcasing cutting-edge advancements.Their support has made it possible to bridge the gap between academia and industry, fostering a thriving ecosystem of talent, ideas, and opportunities.

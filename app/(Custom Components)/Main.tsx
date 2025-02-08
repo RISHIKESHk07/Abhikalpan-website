@@ -9,7 +9,7 @@ import register_bottom_img from "@/public/assets/register_now_bottom_img.svg";
 
 const Main = () => {
   return (
-    <div className="w-[90%] bg-pink-500/500 h-[65vw] absolute sm:top-6 top-[10vw] left-1/2 transform -translate-x-1/2">
+    <div className="w-[90%] bg-pink-500/500 h-[65vw] absolute sm:top-8 top-[10vw] left-1/2 transform -translate-x-1/2">
       <div className="w-full absolute bg-pink-500/500 flex items-center justify-end">
         <Image
           src={sdcard_img}

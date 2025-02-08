@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="md:hidden flex justify-between w-full items-center px-4 py-2 z-50"
+      <div className="mb-[20px] md:hidden flex justify-between w-full items-center px-4 py-2 z-50"
       >
         <Image src={Logo} alt="logo" className="w-25 h-20 z-50" />
         <button

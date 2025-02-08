@@ -24,4 +24,18 @@ body {
 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 800px) {
+  .hide-bg {
+    background-image: none !important;
+  }
 }

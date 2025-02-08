@@ -30,16 +30,17 @@ function page() {
       {/* LEFT-1 */}
       <section className="flex flex-wrap gap-[60px]">
         <section
-          className="mt-[100px] w-full md:w-[558px] lg:w-[700px]"
+          className="mt-[100px] w-full md:w-[555px] lg:w-[700px] sm:h-[450px] md:h-auto"
           style={{
             backgroundImage: `url(${Container.src})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            
+            maxWidth: "740px",
+            maxHeight: "750px",
           }}
         >
-          <div className="flex md:flex-row items-center justify-between mx-auto">
-            <div className="flex flex-col items-start justify-center text-white bg-opacity-50 mb-10 md:mb-14 ml-[1vw] md:ml-[6vw] mt-[20px]">
+
+            <div className="flex flex-col items-start justify-center text-white bg-opacity-50 mb-10 md:mb-[120px] mt-[20px]">
               <p className="text-white font-genos font-normal text-[5vw] sm:text-[6vw] md:text-[48px] whitespace-nowrap overflow-hidden text-ellipsis leading-tight">
                 By,
               </p>
@@ -56,7 +57,7 @@ function page() {
                 height={10}
                 className="mb-[5px] md:mb-[12px] lg:mb-[38px] mt-[6px] md:mt-[12px] w-[240px] md:w-[398px]"
               />
-              <p className="text-white font-hellvitica font-light text-[3vw] md:text-[20px] leading-snug">
+              <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] leading-snug">
                 “A dynamic community of innovators and tech <br />
                 enthusiasts dedicated to exploring the limitless <br />
                 possibilities of electronics and robotics, driving <br />{" "}
@@ -67,9 +68,9 @@ function page() {
                 groundbreaking projects.”
               </p>
             </div>
-          </div>
+          
         </section>
-        <section className=" mx-auto md:ml-[32px]">
+        <section className=" md:ml-[2px] lg:ml-[10px]">
           <Image
             src={Strip.src}
             alt="strip"
@@ -296,8 +297,8 @@ function page() {
         </section>
       </section>
       {/*RIGH -1 */}
-      <section className="flex justify-end flex-wrap-reverse gap-[60px]">
-        <section className=" mx-auto md:mx-0">
+      <section className="flex justify-start md:justify-end flex-wrap-reverse gap-[60px]">
+        <section className="md:mx-0">
           <Image
             src={Strip.src}
             alt="strip"

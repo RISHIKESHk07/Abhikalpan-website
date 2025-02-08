@@ -3,6 +3,9 @@ import Navbar from "../(Custom Components)/Navbar";
 import Footer from "../(Custom Components)/Footer";
 import Bg from "@/public/images/part1.png";
 import Bg2 from "@/public/images/part2.png";
+import gears from "@/public/images/circle_dark.png";
+import Image from "next/image";
+
 const page = () => {
   return (
     <>
@@ -85,9 +88,9 @@ const page = () => {
         </div>
       </section>
       {/* Right side 1 */}
-      <section className="mt-[32px] ml-0">
+      <section className="mt-[32px] ml-0 relative">
         <section
-          className="relative w-full ml-auto md:min-h-[310px]"
+          className="relative w-full ml-auto md:min-h-[310px] "
           style={{
             backgroundImage: `url(${Bg2.src})`,
             backgroundSize: "contain",
@@ -95,7 +98,7 @@ const page = () => {
             maxWidth: "1000px",
           }}
         >
-          <div className="flex md:flex-row items-center justify-between max-w-[1020px] ml-[0px] px-4 mr-[1vw]">
+          <div className="flex md:flex-row items-center justify-between max-w-[1020px] ml-[0px] px-4 mr-[1vw] ">
             <div className="flex justify-center md:justify-end md:w-auto">
               <img
                 src="/images/logo2.png"
@@ -103,7 +106,7 @@ const page = () => {
                 className="w-[60vw] h-[20vw] sm:w-[50vw] sm:h-[18vw] md:w-[300px] md:h-[110px] lg:w-[396px] lg:h-[144px] mt-[3vw] sm:mt-[2vw] md:mt-[1vw]"
               />
             </div>
-            <div className="flex flex-col items-start justify-center text-white bg-opacity-50 mb-10 md:mb-14 mr-[2vw]">
+            <div className="flex flex-col items-start justify-center text-white  bg-opacity-50 mb-10 md:mb-14 mr-[2vw]">
               <p className="text-white font-genos font-normal text-[5vw] sm:text-[6vw] md:text-[48px] whitespace-nowrap overflow-hidden text-ellipsis leading-tight">
                 More about
               </p>
@@ -153,11 +156,12 @@ const page = () => {
             className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
           />
         </div>
+        <Image src={gears} alt="gears" className="absolute top-0 -left-[30vw] -z-10 opacity-15" />
       </section>
       {/* Left Side 2 */}
-      <section style={{}}>
+      <section style={{}} className="relative">
         <section
-          className="relative w-full md:min-h-[310px]"
+          className="relative w-full md:min-h-[310px]" 
           style={{
             backgroundImage: `url(${Bg.src})`,
             backgroundSize: "contain",
@@ -213,6 +217,7 @@ const page = () => {
             className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
           />
         </div>
+        <Image src={gears} alt="gears" className="absolute top-0 -right-[35vw] -z-10 opacity-15" />
       </section>
       {/* Right side 2 */}
       <section className="mt-[32px] ml-0">

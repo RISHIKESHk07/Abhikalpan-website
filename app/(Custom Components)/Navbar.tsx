@@ -1,15 +1,18 @@
 "use client";
 
 import Image from "next/image";
-
+import { usePathname } from 'next/navigation';
 import React, { useState } from "react";
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
+
 import Logo from "@/public/assets/AbhikalpanLogo.svg";
 import Navbr from "@/public/images/navbar_bg_img.svg";
 import Union from "@/public/assets/NavbarLine.png";
 import Link from "next/link";
+import img from "@/public/assets/register_now_bottom_img.svg"
 
 const Navbar = () => {
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -18,43 +21,68 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="md:hidden flex justify-between items-center px-4 py-2 z-50"
+      <div className="md:hidden flex justify-between w-full items-center px-4 py-2 z-50"
       >
-        <Image src={Logo} alt="logo" className="w-25 h-20 " />
+        <Image src={Logo} alt="logo" className="w-25 h-20 z-50" />
         <button
           onClick={toggleSidebar}
-          className="text-white focus:outline-none"
+          className="text-white  z-50 focus:outline-none"
         >
-          <Menu className="w-6 h-6" />
+          <Menu className="w-6 h-6 " />
         </button>
-      </div>
+      </div>  
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 " onClick={toggleSidebar}></div>
+        <div className="fixed inset-0 bg-black bg-opacity-50" onClick={toggleSidebar}></div>
       )}
       <div
-        className={`fixed top-0 left-0 bg-cyan-900 h-full text-white w-64 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-0 left-0 bg-[#062e30] h-full text-white w-64 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out z-50`}
       >
-        <div className="flex flex-col font-genos items-center py-8">
-          <Image src={Logo} alt="logo" className="w-20 h-auto mb-6" />
-          <nav className="flex font-genos flex-col gap-4 text-lg">
-            <Link href="/" onClick={toggleSidebar}>
-              Home
+        <div className="flex flex-col font-genos h-auto text-[#12f5f7] overflow-hidden mr-10 bg-pink-500/500">
+          <div className="pl-5 flex items-center h-20 w-full flex-row justify-between relative">
+            <Image src={Logo} alt="logo" className="w-28" />
+            <button onClick={toggleSidebar}
+            >
+              <X />
+            </button>
+          </div>
+          <nav className="flex font-genos flex-col text-2xl w-full ">
+            <Link href="/" onClick={toggleSidebar} className="px-5 flex justify-center flex-col relative">
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute top-0"></div>
+              {pathname === '/' && <p className="py-2 absolute blur-sm">Home</p>}
+              <p className="py-2">Home</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/about" onClick={toggleSidebar}>
-              About
+            <Link href="/about" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/about' && <p className="py-2 absolute blur-sm">About</p>}
+              <p className="py-2">About</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/events" onClick={toggleSidebar}>
-              Events
+            <Link href="/events" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/events' && <p className="py-2 absolute blur-sm">Events</p>}
+              <p className="py-2">Events</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/sponsors" onClick={toggleSidebar}>
-              Sponsors
+            <Link href="/sponsors" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/sponsers' && <p className="py-2 absolute blur-sm">Sponsers</p>}
+              <p className="py-2">Sponsors</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/people" onClick={toggleSidebar}>
-              People
+            <Link href="/people" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/people' && <p className="py-2 absolute blur-sm">People</p>}
+              <p className="py-2">People</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/contact" onClick={toggleSidebar}>
-              Contact
+            <Link href="/contact" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/contact' && <p className="py-2 absolute blur-sm">Contact</p>}
+              <p className="py-2">Contact</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
           </nav>
         </div>

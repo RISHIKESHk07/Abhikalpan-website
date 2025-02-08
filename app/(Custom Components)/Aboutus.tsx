@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import right_circle from '@/public/images/right_circle.svg'
-import left_circle from '@/public/images/left_circle.svg'
+import circle from '@/public/images/circle.svg'
+import twitter from '@/public/images/twitter.png'
+import instagram from '@/public/images/instagram.png'
+import linkedin from '@/public/images/linkedin.png'
+
 
 const AboutUs = () => {
   return (
-    <div className=" flex items-center text-left gap-[20px] bg-pink-400/400 pb-52 relative mt-[70vw] bg-pink-500/500">
+    <div className="flex items-center bg-pink-500/500 h-[100vw] mb-[20vw] top-[40vw] text-left relative bg-pink-500/500">
       <div className="p-8 text-left">
         {/* Title */}
         <h1 className="text-[4vw] text-white font-bold mb-6 font-aporo">
@@ -25,43 +28,30 @@ const AboutUs = () => {
         <div className="flex gap-4">
           <button>
             <Image
-              src='/images/twitter.png'
+              src={twitter}
               alt="Twitter"
-              width={50}
-              height={50}
-              className="hover:opacity-80"
+              className="hover:opacity-80 md:w-[4vw] w-[7vw]"
             />
           </button>
           <button>
             <Image
-              src="/images/instagram.png"
+              src={instagram}
               alt="Instagram"
-              width={50}
-              height={50}
-              className="hover:opacity-80"
+              className="hover:opacity-80 md:w-[4vw] w-[7vw]"
             />
           </button>
           <button>
             <Image
-              src="/images/linkedin.png"
+              src={linkedin}
               alt="LinkedIn"
-              width={50}
-              height={50}
-              className="hover:opacity-80"
+              className="hover:opacity-80 md:w-[4vw] w-[7vw]"
             />
           </button>
         </div>
       </div>
-      <div className="flex items-center justify-end h-screen relative">
-      </div>
       <Image
-        className="absolute top-[2vw] -right-[10vw] h-[43vw]"
-        src={right_circle}
-        alt="circle"
-      />
-      <Image
-        className="absolute bottom-0 -left-10 h-[50vw]"
-        src={left_circle}
+        className="absolute w-[35vw] -right-[5vw]"
+        src={circle}
         alt="circle"
       />
     </div>

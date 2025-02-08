@@ -1,8 +1,9 @@
+
 import Image from 'next/image';
 import React from 'react';
 import Date from '@/public/images/date_bg.svg';
 import KnowMoreImage from '@/public/images/knowmoreimage.svg'
-
+import gears from '@/public/images/circle_dark.png'
 export interface EventType {
   title: string;
   organizer: string;
@@ -75,16 +76,14 @@ const eventData5feb = eventData.filter((event) => event.date === "5 Feb '25");
 
 const Schedule: React.FC = () => {
   return (
-    <section className="w-full min-h-screen py-8 relative">
+    <section className="w-full py-8 relative">
       {/* Header */}
-      <div className="text-center md:text-left px-4 md:px-[8rem]">
-        <h1 className="text-4xl md:text-6xl font-genos text-white">
-          Schedule
-        </h1>
+      <div className="text-center pb-[5vw] pl-[9vw] font-inter relative md:text-[4vw] text-[7vw]">
+          <h1 className='absolute text-white z-40'>Schedule</h1>
+          <h1 className='absolute text-[#01F8FF] blur-sm z-0'>Schedule</h1>
       </div>
-
       {/* Dates */}
-      <div className="flex flex-col md:flex-row justify-between md:justify-start gap-4 md:gap-[29rem] px-4 md:px-[8rem] mt-8 mb-4">
+      <div className="flex flex-col sm:flex-row justify-between md:justify-start gap-4 md:gap-[29rem] px-4 md:px-[8rem] mt-8 mb-4">
         <p className="font-medium text-white font-genos text-3xl md:text-5xl text-center md:text-left">
           5 Feb &apos;25
         </p>
@@ -95,11 +94,11 @@ const Schedule: React.FC = () => {
 
       {/* Events Grid */}
       <div className='sm:block hidden'>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 px-4 md:px-[8rem] ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 px-4 md:px-[8rem] ">
           {eventData.map((event, index) => (
             <div
               key={index}
-              className="rounded-lg flex flex-row md:flex-row gap-2 md:gap-8 justify-start items-center md:items-start relative  "
+              className="rounded-lg flex flex-row sm:flex-row gap-2 md:gap-8 justify-start items-center md:items-start relative  "
             >
               {/* Time and Image */}
               <div className="relative w-[30%] md:w-auto md:left-0 flex justify-center md:self-start cursor-pointer bg-pink-300/300">
@@ -160,13 +159,18 @@ const Schedule: React.FC = () => {
           ))}
         </div>  
       </div>
-
-      <div className='md:w-[22vw] w-[33vw]  bg-blue-600/600 flex items-center justify-center absolute right-[10vw] -bottom-14'>
+      <Image
+        alt='gears'
+        src={gears}
+        className='md:w-[65vw] w-[80vw] -bottom-[20vw] absolute -right-[12vw] opacity-15'
+        />
+      <div className='md:w-[22vw] w-[33vw]  bg-blue-600/600 flex items-center justify-center absolute right-[10vw] -bottom-[8vw]'>
         <Image
         alt='Know More'
         src={KnowMoreImage}
+        className='w-full'
         />
-        <p className='absolute md:text-[2vw] text-[4vw] text-[#FFFFFF] font-genos'>Know More</p>
+        <p className='absolute md:text-[2vw] text-[4vw]  text-[#FFFFFF] font-genos'>Know More</p>
       </div>
     </section>
   );

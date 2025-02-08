@@ -1,3 +1,4 @@
+
 import React from "react";
 import Image from "next/image";
 import sdcard_img from '@/public/images/sdcard_img.svg';
@@ -8,12 +9,12 @@ import register_bottom_img from "@/public/assets/register_now_bottom_img.svg";
 
 const Main = () => {
   return (
-    <div className="w-[90%] bg-pink-500/500 h-[65vw] absolute top-6 left-1/2 transform -translate-x-1/2">
+    <div className="w-[90%] bg-pink-500/500 h-[65vw] absolute sm:top-8 top-[10vw] left-1/2 transform -translate-x-1/2">
       <div className="w-full absolute bg-pink-500/500 flex items-center justify-end">
         <Image
           src={sdcard_img}
           alt="sd Card"
-          className="w-full"
+          className="w-full -z-10"
         />
         <div className="w-[40%] h-[55%] mb-10 absolute bg-blue-600/600 flex flex-col justify-center pr-10">
           <p className="text-white text-[4vw] font-genos text-center self-end ">From</p>
@@ -24,7 +25,7 @@ const Main = () => {
         </div>
         <div className="absolute self-end w-[38vw] mb-1 flex items-center justify-center">
           <Image
-            className=""
+            className=" w-[38vw]"
             src={register_now_bg}
             alt="registenow_button"
           />
@@ -39,7 +40,7 @@ const Main = () => {
           <Image
             src={eventschedule}
             alt="event_schedule"
-            className="relative"
+            className="relative w-full"
           />
           <p className="absolute text-[2.2vw] text-[#FFFFFF] font-genos">
             Event Schedule

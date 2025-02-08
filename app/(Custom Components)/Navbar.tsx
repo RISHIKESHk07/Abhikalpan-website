@@ -8,8 +8,7 @@ import Logo from "@/public/assets/AbhikalpanLogo.svg";
 import Navbr from "@/public/images/navbar_bg_img.svg";
 import Union from "@/public/assets/NavbarLine.png";
 import Link from "next/link";
-import { useState } from "react";
-import { useRouter } from "next/navigation"; 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

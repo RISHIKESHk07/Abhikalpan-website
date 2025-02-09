@@ -12,7 +12,7 @@ const SponsorsPage = () => {
     <div className="min-h-screen text-white ">
       <Navbar/>
       <div className="relative">
-        <header className="text-left ml-4 sm:ml-6 md:ml-[77px] mt-[20vh] p-3">
+        <header className="text-left ml-4 sm:ml-6 md:ml-[77px] mt-[15vh] p-3">
           <h1
             className="text-[28px] xs:text-[40px] sm:text-[48px] md:text-[52px] lg:text-[85.33px] mb-[3vh] sm:mb-[4vh] md:mb-[5vh] font-bold tracking-widest 
                font-aporo uppercase text-white flex items-center flex-wrap"
@@ -29,7 +29,7 @@ const SponsorsPage = () => {
 
           <p
             className="text-[16px] xs:text-[16px] sm:text-[16px] md:text-[20px] font-helvetica text-white
-               max-w-xl xs:max-w-sm sm:max-w-2xl md:max-w-[42rem]"
+               max-w-xl xs:max-w-sm sm:max-w-2xl md:max-w-[42rem] xl:text-[25px]"
           >
             From technological giants and design pioneers to local enterprises,
             our sponsors have played a pivotal role in empowering students and
@@ -40,10 +40,11 @@ const SponsorsPage = () => {
         </header>
 
         <section
-          className="sm:p-6 relative flex flex-col sm:items-end w-full h-[50vh] sm:h-[75vh]"
+          className="sm:p-6 relative flex flex-col sm:items-end w-full 
+  min-h-[50vh] sm:min-h-[85vh] md:min-h-[65vh] lg:min-h-[75vh] xl:min-h-[68vh] xl:min-w-[55vw]"
           style={{
             backgroundImage: `url(${cardthreee.src})`,
-            backgroundSize: "95% 80%",
+            backgroundSize: "95% 90%",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             width: "95vw",
@@ -54,7 +55,7 @@ const SponsorsPage = () => {
           }}
         >
           <div className="relative md:text-left w-full flex flex-col items-center">
-            <h2 className="text-[26px] sm:text-[36px] lg:text-[52px] mt-[7vh] sm:mt-[9vh] md:mt-[7vh] lg:mt-[4.5vh] font-aporo uppercase text-teal-300 sm:mr-[38vh] lg:mr-[38vh] pt-6">
+            <h2 className="text-[26px] sm:text-[36px] lg:text-[52px] lg:ml-10 md:ml-10 xl:ml-20 mt-[7vh] sm:ml-[45vh] sm:mt-[9vh] md:mt-[7vh] lg:mt-[4.5vh] font-aporo uppercase text-teal-300 sm:mr-[38vh] lg:mr-[38vh] pt-6">
               Title Sponsors
             </h2>
             <Image
@@ -62,7 +63,7 @@ const SponsorsPage = () => {
               alt="underline"
               width={0}
               height={0}
-              className="sm:w-auto sm:ml-28 md:ml-0 w-60 h-auto ml-2 sm:mr-[35vh]"
+              className="sm:w-auto sm:ml-[70vh] xl:ml-20 md:ml-40 w-60 lg:ml-32 h-auto ml-2 sm:mr-[35vh]"
             />
 
             <div className="flex flex-row items-center justify-center mt-[2vh] md:mt-[3vh] gap-4 sm:gap-8 w-full px-4">
@@ -75,7 +76,7 @@ const SponsorsPage = () => {
               />
 
               <div className="max-w-xs sm:max-w-lg text-left">
-                <p className="text-[10px] sm:text-[17px] md:text-[16px] lg:text-[22px] text-white leading-relaxed">
+                <p className="text-[10px] sm:text-[17px] md:text-[16px] lg:text-[20px]  text-white leading-relaxed">
                   From technological giants and design pioneers to local
                   enterprises, our sponsors have played a pivotal role in
                   empowering students and showcasing cutting-edge advancements.
@@ -92,7 +93,7 @@ const SponsorsPage = () => {
 
         <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-0 mb-0 sm:p-4">
           <div
-            className="rounded-xl flex min-h-[300px] sm:min-h-[400px] items-center lg:ml-16 justify-center mt-0 mb-0 sm:p-4 md:p-6"
+            className="rounded-xl flex min-h-[300px] sm:min-h-[400px] items-center xl:max-w-[900px] lg:ml-16 justify-center mt-0 mb-0 sm:p-4 md:p-6"
             style={{
               backgroundImage: `url(${cardtwoo.src})`,
               backgroundSize: "95% 100%",
@@ -119,7 +120,7 @@ const SponsorsPage = () => {
                   height={155}
                   className="mr-2 sm:mr-0 sm:mb-4 sm:h-16 h-auto w-24 sm:w-36 md:w-auto lg:w-auto"
                 />
-                <p className="text-[10px] mr-8 sm:text-[11px] md:text-[13px] lg:text-[13px] max-w-[48vw] sm:max-w-xl text-white leading-relaxed">
+                <p className="text-[10px] mr-8 sm:text-[11px] md:text-[13px] lg:text-[13px] max-w-[48vw] xl:max-w-[90%] xl:text-lg sm:max-w-xl text-white leading-relaxed">
                   From technological giants and design pioneers to local
                   enterprises, our sponsors have played a pivotal role in
                   empowering students

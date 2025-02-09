@@ -60,8 +60,8 @@ function page() {
           <PeopleCard />
           <PeopleCard />
           <PeopleCard />
-          <PeopleCard />
         </section>
+        <PeopleCard />
       </section>
       <Footer />
     </section>

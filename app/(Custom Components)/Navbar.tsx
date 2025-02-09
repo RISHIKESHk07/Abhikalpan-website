@@ -1,14 +1,18 @@
 "use client";
 
 import Image from "next/image";
+import { usePathname } from 'next/navigation';
 import React, { useState } from "react";
-import { Menu } from "lucide-react";
-import Logo from "@/public/assets/AbhikalpanLogo.png";
-import Navbr from "@/public/assets/Navbar.png";
+import { Menu, X } from "lucide-react";
+
+import Logo from "@/public/assets/AbhikalpanLogo.svg";
+import Navbr from "@/public/images/navbar_bg_img.svg";
 import Union from "@/public/assets/NavbarLine.png";
 import Link from "next/link";
+import img from "@/public/assets/register_now_bottom_img.svg"
 
 const Navbar = () => {
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -16,91 +20,100 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-    
-      <div className="md:hidden flex justify-between items-center px-4 py-2  "
+    <>
+      <div className="mb-[20px] md:hidden flex justify-between w-full items-center px-4 py-2 z-50"
       >
-        <Image src={Logo} alt="logo" className="w-25 h-20 " />
+        <Image src={Logo} alt="logo" className="w-25 h-20 z-50" />
         <button
           onClick={toggleSidebar}
-          className="text-white focus:outline-none"
+          className="text-white  z-50 focus:outline-none"
         >
-          <Menu className="w-6 h-6" />
+          <Menu className="w-6 h-6 " />
         </button>
-      </div>
+      </div>  
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-40" onClick={toggleSidebar}></div>
+        <div className="fixed inset-0 bg-black bg-opacity-50" onClick={toggleSidebar}></div>
       )}
       <div
-        className={`fixed top-0 left-0 bg-cyan-900 h-full text-white w-64 transform ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out z-50`}
+        className={`fixed top-0 left-0 bg-[#062e30] h-full text-white w-64 transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 ease-in-out z-50`}
       >
-        <div className="flex flex-col font-genos items-center py-8">
-          <Image src={Logo} alt="logo" className="w-20 h-auto mb-6" />
-          <nav className="flex font-genos flex-col gap-4 text-lg">
-            <Link href="/" onClick={toggleSidebar}>
-              Home
+        <div className="flex flex-col font-genos h-auto text-[#12f5f7] overflow-hidden mr-10 bg-pink-500/500">
+          <div className="pl-5 flex items-center h-20 w-full flex-row justify-between relative">
+            <Image src={Logo} alt="logo" className="w-28" />
+            <button onClick={toggleSidebar}
+            >
+              <X />
+            </button>
+          </div>
+          <nav className="flex font-genos flex-col text-2xl w-full ">
+            <Link href="/" onClick={toggleSidebar} className="px-5 flex justify-center flex-col relative">
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute top-0"></div>
+              {pathname === '/' && <p className="py-2 absolute blur-sm">Home</p>}
+              <p className="py-2">Home</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/about" onClick={toggleSidebar}>
-              About
+            <Link href="/about" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/about' && <p className="py-2 absolute blur-sm">About</p>}
+              <p className="py-2">About</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/events" onClick={toggleSidebar}>
-              Events
+            <Link href="/events" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/events' && <p className="py-2 absolute blur-sm">Events</p>}
+              <p className="py-2">Events</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/sponsors" onClick={toggleSidebar}>
-              Sponsors
+            <Link href="/sponsors" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/sponsers' && <p className="py-2 absolute blur-sm">Sponsers</p>}
+              <p className="py-2">Sponsors</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/people" onClick={toggleSidebar}>
-              People
+            <Link href="/people" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/people' && <p className="py-2 absolute blur-sm">People</p>}
+              <p className="py-2">People</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
-            <Link href="/contact" onClick={toggleSidebar}>
-              Contact
+            <Link href="/contact" onClick={toggleSidebar} className="px-5 relative flex justify-center flex-col">
+              {pathname === '/contact' && <p className="py-2 absolute blur-sm">Contact</p>}
+              <p className="py-2">Contact</p>
+              <Image src={img} alt="" className="h-3 absolute -right-3" />
+              <div className="h-[1px] w-full bg-gradient-to-r from-[#12f5f7] to-transparent absolute bottom-0"></div>
             </Link>
           </nav>
         </div>
       </div>
-
-     
-     
-      <div className="hidden md:flex justify-between items-center sticky top-0 z-50 px-8 py-4 ">
-  <div className="absolute h-28 opacity-50 w-full">.</div>
-  <Image
-    src={Logo}
-    alt="logo"
-    className="absolute top-[30%] left-[5.2%] w-[25%] max-w-[350px] md:w-[22%] lg:w-[20%] xl:w-[18%] 2xl:w-[16%]"
-
-
-
-  />
-  <div className="relative w-full">
-    <Image
-      src={Navbr}
-      alt="logo"
-      layout="responsive"
-      className="p-4 w-full"
-    />
-    <div
-      className="absolute top-[33%] right-0 flex gap-2 text-cyan-300 text-sm 
-      sm:right-[6rem] sm:gap-[0.5rem] sm:text-base 
-      md:right-[6rem] md:gap-[1rem] md:text-lg 
-      lg:gap-[3rem] lg:text-lg 
-      2xl:right-[8rem] 2xl:gap-[4rem] 2xl:text-2xl"
-    >
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-      <Link href="/events">Events</Link>
-      <Link href="/sponsors">Sponsors</Link>
-      <Link href="/people">People</Link>
-      <Link href="/contact">Contact</Link>
-    </div>
-  </div>
-  <div className="absolute top-[72%] right-[2%] flex gap-[4rem] text-cyan-300 pl-[10%] pr-[2%] w-full">
-    <Image src={Union} alt="logo" className="p-0 opacity-50 w-full" />
-  </div>
-</div>
-
-    </div>
+      <div className="w-[90%] bg-blue-500/500 h-20 hidden md:block absolute z-40 top-6 left-1/2 transform -translate-x-1/2">
+        <Image
+          alt="navbar"
+          src={Navbr}
+          className="w-full"
+        />
+        <Image
+          alt="logo"
+          src={Logo}
+          className="absolute inset-[1.9vw] w-[16vw]"
+        />
+        <div
+          className=" h-[2.5vw] bg-pink-300/300 text-cyan-300 pr-[2.8vw] font-genos absolute right-0 top-[2vw] text-[2vw] gap-[3vw] flex">
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/events">Events</Link>
+          <Link href="/sponsors">Sponsors</Link>
+          <Link href="/people">People</Link>
+          <Link href="/contact">Contact</Link>
+        </div>
+        <Image
+          alt="line"
+          src={Union}
+          className="absolute top-[6vw] right-[2vw] opacity-50 w-[90%]"
+        />
+      </div>
+    </>
   );
 };
 

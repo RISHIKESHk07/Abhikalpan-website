@@ -11,9 +11,13 @@ const page = () => {
     <>
       {/* Added overflow-hidden */}
       <Navbar />
-      <div className="flex justify-end m-10 mt-[3vh] sm:mt-[30vh]">
-        <img src="/images/About2.png" alt="" className="w-[15vw]" />
-        <h1 className="font-aporo text-[28px] md:text-[85.6px] text-white">
+      <div className="flex justify-end m-10 mt-[60px] sm:mt-[180px] leading-[64px] items-center mr-[5vw]">
+        <img
+          src="/images/About2.png"
+          alt=""
+          className="w-[18vw] md:w-[8vw] h-[3vh] md:h-[7vh] leading-[24px] md:leading-[24px]"
+        />
+        <h1 className="ml-[20px] font-aporo text-[28px] md:text-[85.6px] text-white">
           ABOUT US
         </h1>
       </div>

@@ -10,11 +10,11 @@ import Footer from "../(Custom Components)/Footer";
 const SponsorsPage = () => {
   return (
     <div className="min-h-screen text-white ">
-      <Navbar/>
+      <Navbar />
       <div className="relative">
         <header className="text-left ml-4 sm:ml-6 md:ml-[77px] mt-[15vh] p-3">
           <h1
-            className="text-[28px] xs:text-[40px] sm:text-[48px] md:text-[52px] lg:text-[85.33px] mb-[3vh] sm:mb-[4vh] md:mb-[5vh] font-bold tracking-widest 
+            className="text-[28px] md:text-[85.6px] mb-[3vh] sm:mb-[4vh] md:mb-[5vh] font-bold tracking-widest 
                font-aporo uppercase text-white flex items-center flex-wrap"
           >
             Sponsors
@@ -23,7 +23,7 @@ const SponsorsPage = () => {
               alt="line"
               width={168}
               height={61.79}
-              className="w-16 xs:w-20 sm:w-24 md:w-28 lg:w-auto h-6 sm:h-auto ml-1 sm:ml-2 md:ml-2"
+              className="w-[18vw] md:w-[8vw] h-[3vh] md:h-[7vh] leading-[24px] md:leading-[24px]"
             />
           </h1>
 
@@ -51,7 +51,6 @@ const SponsorsPage = () => {
             maxWidth: "975px",
             marginTop: "0.5vh",
             marginLeft: "auto",
-            
           }}
         >
           <div className="relative md:text-left w-full flex flex-col items-center">
@@ -202,7 +201,7 @@ const SponsorsPage = () => {
           </div>
         </section>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

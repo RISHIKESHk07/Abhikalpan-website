@@ -15,8 +15,11 @@ export default function Highlights() {
 
   return (
     <>
-      <h1 className="relative top-0 text-6xl font-normal text-white text-center w-full text-[7vw] mt-48">Highlights</h1>
-      <section className=" p-8 min-h-screen flex flex-col items-center  w-screen overflow-scroll scrollbar-hide pl-[1300px] relative">
+      <div className="relative top-0 text-6xl font-normal text-white text-center w-full text-[10vw] md:text-[7vw] mt-52 h-[12vw] bg-white/0 flex items-center justify-center text-inter">
+        <h1 className="absolute blur-sm text-[#01F8FF]">Highlights</h1>
+        <h1 className="absolute">Highlights</h1>
+      </div>
+      <section className=" p-8 h-[160vw] sm:h-auto flex flex-col items-center  w-screen overflow-scroll scrollbar-hide pl-[1300px] relative">
 
         <div className="flex gap-10 bg-pink-500/500">
           {cards.map((card, index) => (

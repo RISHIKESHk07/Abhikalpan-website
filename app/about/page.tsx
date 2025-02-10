@@ -11,13 +11,9 @@ const page = () => {
     <>
       {/* Added overflow-hidden */}
       <Navbar />
-      <div className="flex justify-end m-10 mt-[60px] sm:mt-[180px] leading-[64px] items-center mr-[5vw]">
-        <img
-          src="/images/About2.png"
-          alt=""
-          className="w-[18vw] md:w-[8vw] h-[3vh] md:h-[7vh] leading-[24px] md:leading-[24px]"
-        />
-        <h1 className="ml-[20px] font-aporo text-[28px] md:text-[85.6px] text-white">
+      <div className="flex justify-end m-10 mt-[3vh] sm:mt-[30vh]">
+        <img src="/images/About2.png" alt="" className="w-[15vw]" />
+        <h1 className="font-aporo text-[28px] md:text-[85.6px] text-white">
           ABOUT US
         </h1>
       </div>
@@ -75,19 +71,19 @@ const page = () => {
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/pdpm1.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[360px] sm:w-[457px] h-[250px]  hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG2.png"
+            src="/content_photos/pdpm2.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[360px] sm:w-[362px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/pdpm3.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[360px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
         </div>
       </section>
@@ -145,27 +141,31 @@ const page = () => {
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/abhi1.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[457px] h-auto hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG2.png"
+            src="/content_photos/abhi2.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[364px] h-auto hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/abhi3.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[457px] h-auto hover:scale-105 transition 500 rounded-lg"
           />
         </div>
-        <Image src={gears} alt="gears" className="absolute top-0 -left-[30vw] -z-10 opacity-15" />
+        <Image
+          src={gears}
+          alt="gears"
+          className="absolute top-0 -left-[30vw] -z-10 opacity-15"
+        />
       </section>
       {/* Left Side 2 */}
       <section style={{}} className="relative">
         <section
-          className="relative w-full md:min-h-[310px]" 
+          className="relative w-full md:min-h-[310px]"
           style={{
             backgroundImage: `url(${Bg.src})`,
             backgroundSize: "contain",
@@ -206,22 +206,26 @@ const page = () => {
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/pic8.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG2.png"
+            src="/content_photos/pic7.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[360px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/pic8.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
         </div>
-        <Image src={gears} alt="gears" className="absolute top-0 -right-[35vw] -z-10 opacity-15" />
+        <Image
+          src={gears}
+          alt="gears"
+          className="absolute top-0 -right-[35vw] -z-10 opacity-15"
+        />
       </section>
       {/* Right side 2 */}
       <section className="mt-[32px] ml-0">
@@ -251,31 +255,31 @@ const page = () => {
         </section>
         <div className="text-right text-white font-hellvitica text-[10px] md:text-[20px] mr-[5vw] leading-[23px] ml-auto">
           <p>
-          Media Outreach plays a crucial role in amplifying the impact of{" "}
-              <br />
-              events and activities at IIITDM Jabalpur, ensuring they reach a{" "}
-              <br />
-              wider audience. It involves strategically engaging with various{" "}
-              <br />
-              media platforms to promote the institute’s initiatives, <br />
-              achievements, and events like Abhikalpan, and Tarang. <br />
+            Media Outreach plays a crucial role in amplifying the impact of{" "}
+            <br />
+            events and activities at IIITDM Jabalpur, ensuring they reach a{" "}
+            <br />
+            wider audience. It involves strategically engaging with various{" "}
+            <br />
+            media platforms to promote the institute’s initiatives, <br />
+            achievements, and events like Abhikalpan, and Tarang. <br />
           </p>
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/med3.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG2.png"
+            src="/content_photos/med1.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[364px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG1.png"
+            src="/content_photos/med2.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[200px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
         </div>
       </section>

@@ -2,366 +2,127 @@ import Footer from "../(Custom Components)/Footer";
 import Navbar from "../(Custom Components)/Navbar";
 import Container from "@/public/images/PeopleContainerTitle.png";
 import PeopleCard from "../(Custom Components)/PeopleCard";
-import Organizer from "@/public/images/Organizer.jpeg";
-import Organizer1 from "@/public/images/Organizer1.jpg";
-import Organizer2 from "@/public/images/Organizer2.jpg";
-import Organizer3 from "@/public/images/Organizer3.jpeg";
-import Organizer4 from "@/public/images/Organizer4.jpg";
-import Organizer5 from "@/public/images/Organizer5.jpg";
-import Organizer6 from "@/public/images/Organizer6.jpeg";
-import Organizer7 from "@/public/images/Organizer7.jpeg";
-import Organizer8 from "@/public/images/Organizer8.jpeg";
-import Organizer11 from "@/public/images/Organizers11_Reishabh_Rathore.jpg";
-import Organizer10 from "@/public/images/Organizer10.jpg";
-import Organizer12 from "@/public/images/Organizer12.png";
-import Organizer13 from "@/public/images/Organizer13.jpg";
-import Organizer14 from "@/public/images/Organizer14.jpg";
-import Organizer15 from "@/public/images/Organizer15.jpg";
-import Organizer16 from "@/public/images/Organizer16.jpg";
-import Organizer17 from "@/public/images/Organizer17.jpg";
-import Organizer18 from "@/public/images/Organizer18.jpg";
-import CC1 from "@/public/images/ShounakPatil(Co-Coordinator)ESPORTS.jpg";
-import CC2 from "@/public/images/KshitijPatel(CC Code ARENA).jpg";
-import CC3 from "@/public/images/Safal Tripathi(CC CSS BATTLE).jpg";
-import ERSC1 from "@/public/images/Prince Raj (Coordinator FAZ) .jpg";
-import ERSC2 from "@/public/images/Ratan jyoti Coordinator ERS SPEAKER .jpg";
-import ERSC3 from "@/public/images/Indrapal Singh Coordinator ROBOWARS.jpg";
-import AFC1 from "@/public/images/saummya Aero RUSH C.jpg";
-import AFC2 from "@/public/images/Sumit Aermodelling Quiz C.jpg";
-import AFC3 from "@/public/images/Khushi RC GLIDER.jpg";
-import AFC4 from "@/public/images/Shashank Drone workshop.jpg";
-import AFC5 from "@/public/images/YashSheorey Drone Exhibition.jpeg";
-import AFC6 from "@/public/images/SIddharth-an Ansys C .jpg";
-import RC1 from "@/public/images/DriveLine Mehul Agarwal C .jpg";
-import RC2 from "@/public/images/Aiswarya Coordinator Autotrivia.jpeg";
-import RC3 from "@/public/images/Anish Coordinator EV WORKSHOP .jpg";
-import RC4 from "@/public/images/Anmol Kumar Seminar Coordinator .jpg";
-import CAD1 from "@/public/images/Adicherla Vaishiena (Coordinator) Creation innovation.jpg";
-import CAD2 from "@/public/images/Lavanya Bhargava Coordinator Inovation.jpg";
-import CAD3 from "@/public/images/Aditya Saran CAD Battle coordinator.jpg";
-import CAD4 from "@/public/images/Anurag Mishra CAD MANIA.jpg";
-// import B1 from "@/public/images/Hemlata_coordinator Business Hackathon.jpg"
-import B2 from "@/public/images/NITIN PANDEY(Coordinator) Trading.jpg";
-function page() {
+import { StaticImageData } from "next/image";
+
+const images = {
+  Organizer7: "/images/Organizer7.jpeg",
+  Organizer2: "/images/Organizer2.jpg",
+  Organizer3: "/images/Organizer3.jpeg",
+  Organizer4: "/images/Organizer4.jpg",
+  Organizer5: "/images/Organizer5.jpg",
+  Organizer6: "/images/Organizer6.jpeg",
+  Organizer1: "/images/Organizer1.jpg",
+  Organizer8: "/images/Organizer8.jpeg",
+  Organizer11: "/images/Organizers11_Reishabh_Rathore.jpg",
+  Organizer12: "/images/Organizer12.png",
+  Organizer13: "/images/Organizer13.jpg",
+  Organizer14: "/images/Organizer14.jpg",
+  Organizer15: "/images/Organizer15.jpg",
+  Organizer16: "/images/Organizer16.jpg",
+  Organizer17: "/images/Organizer17.jpg",
+  Organizer18: "/images/Organizer18.jpg",
+  Organizer10: "/images/Organizer10.jpg",
+  CC1: "/images/ShounakPatil(Co-Coordinator)ESPORTS.jpg",
+  CC2: "/images/KshitijPatel(CC Code ARENA).jpg",
+  CC3: "/images/Safal Tripathi(CC CSS BATTLE).jpg",
+  ERSC1: "/images/Prince Raj (Coordinator FAZ) .jpg",
+  ERSC2: "/images/Ratan jyoti Coordinator ERS SPEAKER .jpg",
+  ERSC3: "/images/Indrapal Singh Coordinator ROBOWARS.jpg",
+  AFC1: "/images/saummya Aero RUSH C.jpg",
+  AFC2: "/images/Sumit Aermodelling Quiz C.jpg",
+  AFC3: "/images/Khushi RC GLIDER.jpg",
+  AFC4: "/images/Shashank Drone workshop.jpg",
+  AFC5: "/images/YashSheorey Drone Exhibition.jpeg",
+  AFC6: "/images/SIddharth-an Ansys C .jpg",
+  CAD1: "/images/Adicherla Vaishiena (Coordinator) Creation innovation.jpg",
+  CAD3: "/images/Aditya Saran CAD Battle coordinator.jpg",
+  CAD2: "/images/Lavanya Bhargava Coordinator Inovation.jpg",
+  CAD4: "/images/Anurag Mishra CAD MANIA.jpg",
+  RC1: "/images/DriveLine Mehul Agarwal C .jpg",
+  RC2: "/images/Aiswarya Coordinator Autotrivia.jpeg",
+  RC3: "/images/Anish Coordinator EV WORKSHOP .jpg",
+  RC4: "/images/Anmol Kumar Seminar Coordinator .jpg",
+  B2: "/images/NITIN PANDEY(Coordinator) Trading.jpg"
+};
+
+const coreCommittee = [
+  { name: "Sankalp", event: "STUDENT FEST CONVENOR", src: images.Organizer7 },
+  { name: "Anurag", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer2 },
+  { name: "Gurleen", event: "DESIGN LEAD", src: images.Organizer3 },
+  { name: "Shivanshu", event: "FINANCE LEAD", src: images.Organizer4 },
+  { name: "Vinayak", event: "HELP DESK & SECURITY", src: images.Organizer5 },
+  { name: "SWASTIK", event: "DESIGN LEAD", src: images.Organizer6 },
+  { name: "Hemakshi", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer1 },
+  { name: "Devika", event: "FINANCE LEAD", src: images.Organizer8 },
+  { name: "Reishabh Rathore", event: "EVENTS & WORKSHOP", src: images.Organizer11 },
+  { name: "Ayush Vardhan", event: "SPONSOR LEAD", src: images.Organizer12 },
+  { name: "Tushar Sharma", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer13 },
+  { name: "Lavanya Bhargava", event: "PR & OUTREACH LEAD", src: images.Organizer14 },
+  { name: "Kritansh Singh", event: "SPONSOR LEAD", src: images.Organizer15 },
+  { name: "RAKSHIT", event: "SPONSOR LEAD", src: images.Organizer16 },
+  { name: "Aniket", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer17 },
+  { name: "ALOK", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer18 },
+  { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 }
+];
+
+const coordinators = [
+  { name: "Shounak Patil", event: "Echelon-Valorant Tournament", src: images.CC1 },
+  { name: "Kshitij Patel", event: "The Code Arena", src: images.CC2 },
+  { name: "Safal Tripathi", event: "CSS Battlefield", src: images.CC3 },
+  { name: "Prince Raj", event: "FPV Maze Solver", src: images.ERSC1 },
+  { name: "Ratan Jyoti", event: "Speaker session", src: images.ERSC2 },
+  { name: "Indrapal Singh", event: "RoboWars", src: images.ERSC3 },
+  { name: "Saummya Telange", event: "AeroRush", src: images.AFC1 },
+  { name: "Sumit Chouhan", event: "Aeromodeling Quiz", src: images.AFC2 },
+  { name: "Khushi Kanojiya", event: "RC Glider", src: images.AFC3 },
+  { name: "Shashaank Srivastava", event: "Drone Workshop", src: images.AFC4 },
+  { name: "Yash Sheorey", event: "Drone Exhibition", src: images.AFC5 },
+  { name: "Siddharth Pandey", event: "Ansys Workshop", src: images.AFC6 },
+  { name: "Adicherla Vaishiena", event: "Creation challenge & 3D Printing Workshop", src: images.CAD1 },
+  { name: "Aditya Saran", event: "CAD Battlefield", src: images.CAD3 },
+  { name: "Lavanya Bhargava", event: "Innovation & Design Challenge", src: images.CAD2 },
+  { name: "Anurag Mishra", event: "CAD Mania", src: images.CAD4 },
+  { name: "Mehul Agarwal", event: "DriveLine", src: images.RC1 },
+  { name: "Aiswarya", event: "AutoTrivia Quiz", src: images.RC2 },
+  { name: "Anish", event: "EV Workshop", src: images.RC3 },
+  { name: "Anmol Kumar", event: "Seminar", src: images.RC4 },
+  { name: "Nitin Pandey", event: "Trading Event", src: images.B2 }
+];
+
+function Page() {
   return (
     <section className="min-h-screen bg-[#074144]">
       <Navbar />
       <div className="mt-[3vh] sm:mt-[30vh] mb-[32px]">
-        <h1 className=" text-[32px] md:text-[86px] text-center font-aporo mb-[4px] text-white">
-          Meet the TEAM
-        </h1>
-        <p className=" text-center text-[10px] md:text-[22px] font-hellvitica text-white">
+        <h1 className="text-[32px] md:text-[86px] text-center font-aporo mb-[4px] text-white">Meet the TEAM</h1>
+        <p className="text-center text-[10px] md:text-[22px] font-hellvitica text-white">
           For any queries regarding any section mentioned feel free to contact.
         </p>
       </div>
-      <section>
-        <section
-          className="w-[310px] md:w-[512px] h-[89px] ml-[30px]"
-          style={{
-            backgroundImage: `url(${Container.src})`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <p className="font-aporo text-[19px] md:text-[34.95px] text-center leading-[75px] md:leading-[85px] lg:leading-[100px] pr-[100px] text-white">
-            CORE COMMITTEE
-          </p>
-        </section>
-        <section className="grid  place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px] p-[48px] mx-auto scrollbar-hide">
-          <PeopleCard
-            name="Sankalp"
-            event="STUDENT FEST CONVENOR"
-            src={Organizer7}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Anurag"
-            event="INFRA & ACCOMDATION LEAD"
-            src={Organizer2}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Gurleen"
-            event="DESIGN LEAD"
-            src={Organizer3}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Shivanshu"
-            event="FINANCE LEAD "
-            src={Organizer4}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Vinayak"
-            event="HELP DESK & SECURITY"
-            src={Organizer5}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="SWASTIK"
-            event="DESIGN LEAD"
-            src={Organizer6}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Hemakshi"
-            event="EVENTS & WORKSHOP LEAD"
-            src={Organizer1}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Devika"
-            event="FINANCE LEAD"
-            src={Organizer8}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Reishabh Rathore"
-            event="EVENTS & WORKSHOP"
-            src={Organizer11}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Ayush Vardhan"
-            event="SPONSOR LEAD"
-            src={Organizer12}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Tushar Sharma "
-            event="EVENTS & WORKSHOP LEAD"
-            src={Organizer13}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Lavanya Bhargava"
-            event="PR & OUTREACH LEAD"
-            src={Organizer14}
-            phone="7016208803"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Kritansh Singh"
-            event="SPONSOR LEAD"
-            src={Organizer15}
-            phone="7016208803"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="RAKSHIT"
-            event="SPOSNOR LEAD"
-            src={Organizer16}
-            phone="7016208803"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Aniket"
-            event="INFRA & ACCOMDATION LEAD"
-            src={Organizer17}
-            phone="7016208803"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="ALOK"
-            event="EVENTS & WORKSHOP LEAD"
-            src={Organizer18}
-            phone="7016208803"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Devika"
-            event="FINANCE LEAD"
-            src={Organizer}
-            phone="0000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Shashank pandey "
-            event="HELP DESK & SECURITY LEAD"
-            src={Organizer10}
-            phone="0000000"
-            mail="example@example.com"
-          />
-        </section>
-      </section>
-      <section>
-        <section
-          className="w-[310px] md:w-[512px] h-[89px] ml-auto mt-[100px]"
-          style={{
-            backgroundImage: `url(${Container.src})`,
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <p className="font-aporo text-[19px] md:text-[34.95px] text-center leading-[75px] md:leading-[85px] lg:leading-[100px] pr-[100px] text-white">
-            COORDINATORS
-          </p>
-        </section>
-        <section className="grid place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px]  p-[48px] mx-auto scrollbar-hide mb-[100px]">
-          <PeopleCard
-            name="Shounak Patil"
-            event="Echelon-Valorant Tournament"
-            src={CC1}
-            phone="93242 10017"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Kshitij Patel"
-            event="The Code Arena"
-            src={CC2}
-            phone="88279 67459"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Safal tripathi"
-            event="CSS Battlefield"
-            src={CC3}
-            phone="9792273310"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Prince Raj"
-            event="FPV Maze Solver"
-            src={ERSC1}
-            phone=" 9024340468"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Ratan jyoti"
-            event="Speaker session"
-            src={ERSC2}
-            phone="9935516343"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Indrapal Singh"
-            event="RoboWars"
-            src={ERSC3}
-            phone="7000835181"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Saummya Telange"
-            event="AeroRush"
-            src={AFC1}
-            phone="97261 80458"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Sumit Chouhan"
-            event="Aeromodeling  Quiz"
-            src={AFC2}
-            phone="7400603978"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Khushi Kanojiya"
-            event="RC Glider"
-            src={AFC3}
-            phone="91425 62717"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="  Shashaank Srivastava"
-            event="Drone Workshop"
-            src={AFC4}
-            phone="9140340531"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Yash Sheorey"
-            event="Drone Exhibition"
-            src={AFC5}
-            phone="9926687674"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Siddharth Pandey"
-            event="Ansys Workshop"
-            src={AFC6}
-            phone="9450749400"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Adicherla Vaishiena"
-            event="Creation challenge & 3D Printing Workshop"
-            src={CAD1}
-            phone="9581249349"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Aditya Saran"
-            event="CAD Battlefield"
-            src={CAD3}
-            phone="9430330421"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name=" Lavanya Bhargava"
-            event="Innovation & Design Challenge"
-            src={CAD2}
-            phone="8982661001"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Anurag Mishra"
-            event="CAD Mania"
-            src={CAD4}
-            phone="9044950475"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Mehul Agarwal"
-            event="DriveLine"
-            src={RC1}
-            phone="000000000"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Aiswarya"
-            event="AutoTriva Quiz"
-            src={RC2}
-            phone="9369945836"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Anish"
-            event="Ev workshop "
-            src={RC3}
-            phone="9324210017"
-            mail="example@example.com"
-          />
-          <PeopleCard
-            name="Anmol Kumar"
-            event="Seminar"
-            src={RC4}
-            phone=" 9170493269"
-            mail="example@example.com"
-          />
-          {/* <PeopleCard name="Hemalata" event="Business Hackathon" src={B1}/> */}
-          <PeopleCard
-            name="Nitin Pandey"
-            event="Trading Event"
-            src={B2}
-            phone="7016208803"
-            mail="example@example.com"
-          />
-        </section>
-      </section>
+
+      <TeamSection title="CORE COMMITTEE" members={coreCommittee} />
+      <TeamSection title="COORDINATORS" members={coordinators} />
       <Footer />
     </section>
   );
 }
-export default page;
+
+const TeamSection = ({ title, members }:{title:string,members:Array< {name:string ,event:string,src:string|StaticImageData}>}) => (
+  <section>
+    <div
+      className="w-[310px] md:w-[512px] h-[89px] ml-auto mt-[100px]"
+      style={{ backgroundImage: `url(${Container.src})`, backgroundSize: "contain", backgroundRepeat: "no-repeat" }}
+    >
+      <p className="font-aporo text-[19px] md:text-[34.95px] text-center leading-[75px] md:leading-[85px] lg:leading-[100px] pr-[100px] text-white">
+        {title}
+      </p>
+    </div>
+    <div className="grid place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px] p-[48px] mx-auto scrollbar-hide mb-[100px]">
+      {members.map(({ name, event, src }, index) => (
+        <PeopleCard key={index} name={name} event={event} src={src} phone="0000000" mail="example@example.com" />
+      ))}
+    </div>
+  </section>
+);
+
+export default Page;

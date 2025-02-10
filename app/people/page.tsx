@@ -17,6 +17,7 @@ const images = {
   Organizer12: "/images/Organizer12.png",
   Organizer13: "/images/Organizer13.jpg",
   Organizer14: "/images/Organizer14.jpg",
+  Organizer31: "/images/Organizer31.jpg",
   Organizer15: "/images/Organizer15.jpg",
   Organizer16: "/images/Organizer16.jpg",
   Organizer17: "/images/Organizer17.jpg",
@@ -46,47 +47,48 @@ const images = {
 };
 
 const coreCommittee = [
-  { name: "Sankalp", event: "STUDENT FEST CONVENOR", src: images.Organizer7 },
-  { name: "Anurag", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer2 },
-  { name: "Gurleen", event: "DESIGN LEAD", src: images.Organizer3 },
-  { name: "Shivanshu", event: "FINANCE LEAD", src: images.Organizer4 },
-  { name: "Vinayak", event: "HELP DESK & SECURITY", src: images.Organizer5 },
-  { name: "SWASTIK", event: "DESIGN LEAD", src: images.Organizer6 },
-  { name: "Hemakshi", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer1 },
-  { name: "Devika", event: "FINANCE LEAD", src: images.Organizer8 },
-  { name: "Reishabh Rathore", event: "EVENTS & WORKSHOP", src: images.Organizer11 },
-  { name: "Ayush Vardhan", event: "SPONSOR LEAD", src: images.Organizer12 },
-  { name: "Tushar Sharma", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer13 },
-  { name: "Lavanya Bhargava", event: "PR & OUTREACH LEAD", src: images.Organizer14 },
-  { name: "Kritansh Singh", event: "SPONSOR LEAD", src: images.Organizer15 },
-  { name: "RAKSHIT", event: "SPONSOR LEAD", src: images.Organizer16 },
-  { name: "Aniket", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer17 },
-  { name: "ALOK", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer18 },
-  { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 }
+  { name: "Sankalp", event: "STUDENT FEST CONVENOR", src: images.Organizer7 , phone: "8409646129" },
+  { name: "Anurag", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer2 , phone: "9876543210"},
+  { name: "Gurleen", event: "DESIGN LEAD", src: images.Organizer3, phone: "7304245055" },
+  { name: "Falguni", event: "DESIGN LEAD", src: images.Organizer31, phone: "7038154301" },
+  { name: "Shivanshu", event: "FINANCE LEAD", src: images.Organizer4 , phone: "7607990976"},
+  { name: "Vinayak", event: "HELP DESK & SECURITY", src: images.Organizer5 , phone: "8503807674"},
+  { name: "SWASTIK", event: "DESIGN LEAD", src: images.Organizer6, phone: "6002707686" },
+  { name: "Hemakshi", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer1 , phone: "9687249347"},
+  { name: "Devika", event: "FINANCE LEAD", src: images.Organizer8 , phone: "9876543210"},
+  { name: "Reishabh Rathore", event: "EVENTS & WORKSHOP", src: images.Organizer11, phone: "9315137833" },
+  { name: "Ayush Vardhan", event: "SPONSOR LEAD", src: images.Organizer12 , phone: "7307034352"},
+  { name: "Tushar Sharma", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer13, phone: "7456945732" },
+  { name: "Lavanya Bhargava", event: "PR & OUTREACH LEAD", src: images.Organizer14 , phone: "8982661001"},
+  { name: "Kritansh Singh", event: "SPONSOR LEAD", src: images.Organizer15 , phone: "8303294919"},
+  { name: "RAKSHIT", event: "SPONSOR LEAD", src: images.Organizer16 , phone: "9876543210"},
+  { name: "Aniket", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer17, phone: "7996363111" },
+  { name: "ALOK", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer18 , phone: "9151348969"},
+  { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 , phone: "9876543210"}
 ];
 
 const coordinators = [
-  { name: "Shounak Patil", event: "Echelon-Valorant Tournament", src: images.CC1 },
-  { name: "Kshitij Patel", event: "The Code Arena", src: images.CC2 },
-  { name: "Safal Tripathi", event: "CSS Battlefield", src: images.CC3 },
-  { name: "Prince Raj", event: "FPV Maze Solver", src: images.ERSC1 },
-  { name: "Ratan Jyoti", event: "Speaker session", src: images.ERSC2 },
-  { name: "Indrapal Singh", event: "RoboWars", src: images.ERSC3 },
-  { name: "Saummya Telange", event: "AeroRush", src: images.AFC1 },
-  { name: "Sumit Chouhan", event: "Aeromodeling Quiz", src: images.AFC2 },
-  { name: "Khushi Kanojiya", event: "RC Glider", src: images.AFC3 },
-  { name: "Shashaank Srivastava", event: "Drone Workshop", src: images.AFC4 },
-  { name: "Yash Sheorey", event: "Drone Exhibition", src: images.AFC5 },
-  { name: "Siddharth Pandey", event: "Ansys Workshop", src: images.AFC6 },
-  { name: "Adicherla Vaishiena", event: "Creation challenge & 3D Printing Workshop", src: images.CAD1 },
-  { name: "Aditya Saran", event: "CAD Battlefield", src: images.CAD3 },
-  { name: "Lavanya Bhargava", event: "Innovation & Design Challenge", src: images.CAD2 },
-  { name: "Anurag Mishra", event: "CAD Mania", src: images.CAD4 },
-  { name: "Mehul Agarwal", event: "DriveLine", src: images.RC1 },
-  { name: "Aiswarya", event: "AutoTrivia Quiz", src: images.RC2 },
-  { name: "Anish", event: "EV Workshop", src: images.RC3 },
-  { name: "Anmol Kumar", event: "Seminar", src: images.RC4 },
-  { name: "Nitin Pandey", event: "Trading Event", src: images.B2 }
+  { name: "Shounak Patil", event: "Echelon-Valorant Tournament", src: images.CC1 , phone: "9324210017"},
+  { name: "Kshitij Patel", event: "The Code Arena", src: images.CC2 , phone: "8827967459"},
+  { name: "Safal Tripathi", event: "CSS Battlefield", src: images.CC3 , phone: "9792273310"},
+  { name: "Prince Raj", event: "FPV Maze Solver", src: images.ERSC1, phone: "9024340468" },
+  { name: "Ratan Jyoti", event: "Speaker session", src: images.ERSC2 , phone: "9935516343"},
+  { name: "Indrapal Singh", event: "RoboWars", src: images.ERSC3 , phone: "7000835181"},
+  { name: "Saummya Telange", event: "AeroRush", src: images.AFC1 , phone: "9726180458"},
+  { name: "Sumit Chouhan", event: "Aeromodeling Quiz", src: images.AFC2 , phone: "7400603978"},
+  { name: "Khushi Kanojiya", event: "RC Glider", src: images.AFC3 , phone: "9142562717"},
+  { name: "Shashaank Srivastava", event: "Drone Workshop", src: images.AFC4 , phone: "9140340531"},
+  { name: "Yash Sheorey", event: "Drone Exhibition", src: images.AFC5 , phone: "9926687674"},
+  { name: "Siddharth Pandey", event: "Ansys Workshop", src: images.AFC6 , phone: "9450749400"},
+  { name: "Adicherla Vaishiena", event: "Creation challenge & 3D Printing Workshop", src: images.CAD1, phone: " 9581249349" },
+  { name: "Aditya Saran", event: "CAD Battlefield", src: images.CAD3, phone: "9430330421" },
+  { name: "Lavanya Bhargava", event: "Innovation & Design Challenge", src: images.CAD2 , phone: "8982661001"},
+  { name: "Anurag Mishra", event: "CAD Mania", src: images.CAD4 , phone: " 9044950475"},
+  { name: "Mehul Agarwal", event: "DriveLine", src: images.RC1, phone: "9511382403" },
+  { name: "Aishwarya Jaiswal", event: "AutoTrivia Quiz", src: images.RC2 , phone: "9369945836"},
+  { name: "Anish", event: "EV Workshop", src: images.RC3 , phone: "9508720514"},
+  { name: "Anmol Kumar", event: "Seminar", src: images.RC4 , phone: "9170493269"},
+  { name: "Nitin Pandey", event: "Trading Event", src: images.B2 , phone: "7016208803"}
 ];
 
 function Page() {
@@ -107,7 +109,7 @@ function Page() {
   );
 }
 
-const TeamSection = ({ title, members }:{title:string,members:Array< {name:string ,event:string,src:string|StaticImageData}>}) => (
+const TeamSection = ({ title, members }:{title:string,members:Array< {name:string ,event:string,src:string|StaticImageData ,phone:string}>}) => (
   <section>
     <div
       className="w-[310px] md:w-[512px] h-[89px] ml-auto mt-[100px]"
@@ -118,8 +120,8 @@ const TeamSection = ({ title, members }:{title:string,members:Array< {name:strin
       </p>
     </div>
     <div className="grid place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[32px] p-[48px] mx-auto scrollbar-hide mb-[100px]">
-      {members.map(({ name, event, src }, index) => (
-        <PeopleCard key={index} name={name} event={event} src={src} phone="0000000" mail="example@example.com" />
+      {members.map(({ name, event, src,phone }, index) => (
+        <PeopleCard key={index} name={name} event={event} src={src} phone={phone} mail="example@example.com" />
       ))}
     </div>
   </section>

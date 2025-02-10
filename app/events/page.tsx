@@ -25,22 +25,22 @@ const clubsData = [
       {
         title: "FPV MAZE SOLVER",
         content: [{
-          heading: "",
-          subtext: ""
+          subtext: "The FPV Maze Solver competition challenges participants to design a bot that navigates a maze while overcoming obstacles. It tests robotics, programming, and problem-solving skills, fostering innovation and teamwork.",
+          heading: "FPV MAZE SOLVER"
         }]
       },
       {
         title: "RoboWars",
         content: [{
-          heading: "",
-          subtext: ""
+          subtext: "The RoboWar competition challenges participants to design and build robots that battle in an arena, testing durability, strategy, and engineering excellence.",
+          heading: "RoboWars"
         }]
       },
       {
         title: "SPEAKER SESSION",
         content: [{
-          heading: "",
-          subtext: ""
+          subtext: "A special interactive session where participants meet alumni with expertise in robotics, gaining valuable insights from their experiences and having the opportunity to ask questions.",
+          heading: "SPEAKER SESSION"
         }]
       }
     ]
@@ -81,42 +81,42 @@ const clubsData = [
       {
         title: "AERORUSH",
         content: [{
-          heading: "",
-          subtext: "he Aero Rush Drone Design Competition challenges students to create innovative multirotor drone designs using CAD tools, emphasizing efficiency, precision, and creativity."
+          heading: "AERORUSH",
+          subtext: "The Aero Rush Drone Design Competition challenges students to create innovative multirotor drone designs using CAD tools, emphasizing efficiency, precision, and creativity."
         }]
       },
       {
         title: "AEROMODELING QUIZ",
         content: [{
-          heading: "",
+          heading: "AEROMODELING QUIZ",
           subtext: "Aeromodeling Quiz is designed to test participants' knowledge of aerodynamics, aircraft structures, propulsion, and aviation history. Open to all engineering and aviation enthusiasts."
         }]
       },
       {
         title: "RC GLIDER",
         content: [{
-          heading: "",
+          heading: "RC GLIDER",
           subtext: "The RC Glider Workshop, challenges participants to design, build, and fly gliders and tests aerodynamics, structural design, and piloting skills, making it an exciting opportunity for aviation enthusiasts to showcase their expertise in flight mechanics."
         }]
       },
       {
         title: "DRONE WORKSHOP",
         content: [{
-          heading: "",
+          heading: "DRONE WORKSHOP",
           subtext: "A hands-on workshop covering drone design, assembly, and autonomous flight principles."
         }]
       },
       {
         title: "DRONE EXHIBITION",
         content: [{
-          heading: "",
+          heading: "DRONE EXHIBITION",
           subtext: "A showcase of innovative drones, highlighting their design, technology, and real-world applications."
         }]
       },
       {
         title: "ANSYS WORKSHOP",
         content: [{
-          heading: "",
+          heading: "ANSYS WORKSHOP",
           subtext: "To provide participants with hands-on experience in ANSYS for engineering simulations, covering structural, thermal, and fluid analysis."
         }]
       }
@@ -130,29 +130,29 @@ const clubsData = [
       {
         title: "DRIVELINE",
         content: [{
-          heading: "",
-          subtext: ""
+          heading: "DRIVELINE",
+          subtext: "EV Powertrain Design Challenge is a national competition for engineering students and EV enthusiasts. Teams design a complete EV powertrain, optimizing performance, cost, and efficiency"
         }]
       },
       {
         title: "AUTOTRIVA QUIZ",
         content: [{
-          heading: "",
-          subtext: "AutoTrivia is an online quiz competition designed to challenge and expand participants' knowledge of the automotive industry."
+          heading: "AUTOTRIVIA QUIZ",
+          subtext: "AutoTrivia is an online quiz competition designed to challenge and expand participants knowledge of the automotive industry."
         }]
       },
       {
         title: "EV WORKSHOP",
         content: [{
-          heading: "",
-          subtext: ""
+          heading: "EV WORKSHOP",
+          subtext: "An EV workshop is a session focused on electric vehicles (EVs) covering topics like their design, components (motors, batteries, charging systems), assembly, and maintenance. It often includes hands-on activities, insights into industry trends, sustainability benefits, and the economic and policy aspects of EVs. These workshops aim to educate participants on EV technology and its role in promoting sustainable mobility"
         }]
       },
       {
         title: "SEMINAR",
         content: [{
-          heading: "",
-          subtext: "The seminar will provide valuable insights into real-world       applications of engineering simulation, enhancing technical knowledge and career opportunities for students. Ansys experts will share their expertise, making it a great learning experience for all engineering learners and professionals."
+          heading: "SEMINAR",
+          subtext: "The seminar will provide valuable insights into real-world applications of engineering simulation, enhancing technical knowledge and career opportunities for students. Ansys experts will share their expertise, making it a great learning experience for all engineering learners and professionals."
         }]
       }
     ]
@@ -165,29 +165,29 @@ const clubsData = [
       {
         title: "CREATION CHALLENGE & 3D PRINTING",
         content: [{
-          heading: "",
-          subtext: ""
+          heading: "CREATION CHALLENGE & 3D PRINTING",
+          subtext: "This workshop is designed to provide participants with a hands-on opportunity to explore the fascinating world of 3D printing, learn essential skills, and unleash their creativity in a collaborative environment. The goal of this workshop is to introduce participants to the fundamentals of 3D printing technology, including design principles, material selection, and machine operation."
         }]
       },
       {
         title: "INNOVATION & DESIGN CHALLENGE",
         content: [{
-          heading: "",
-          subtext: ""
+          heading: "INNOVATION & DESIGN CHALLENGE",
+          subtext: "The Innovation & Design Challenge is a premier competition organized as part of Abhikalpan'25, the annual tech fest of IIITDM Jabalpur. Hosted by the CAD & 3D Printing Club, this event aims to ignite creativity and technical expertise by challenging participants to design innovative solutions. The competition will span both online and offline modes, providing teams with a platform to showcase their CAD modeling, design thinking, and practical implementation skills."
         }]
       },
       {
         title: "CAD BATTLEFIELD",
         content: [{
-          heading: "",
-          subtext: ""
+          heading: "CAD BATTLEFIELD",
+          subtext: " The event tests participants ability to accurately recreate a complex 3D model within a set time limit using a designated CAD software. Judged on accuracy, speed, and drafting quality, this event pushes competitors to optimize workflow, interpret      designs efficiently, and achieve precision under pressure."
         }]
       },
       {
         title: "CAD MANIA",
         content: [{
-          heading: "",
-          subtext: ""
+          heading: "CAD MANIA",
+          subtext: "The CAD Mania event challenges participants to precisely replicate a complex 3D model within a limited time using designated CAD software. Competitors are evaluated based on accuracy, speed, and drafting quality, encouraging them to refine their workflow, interpret designs effectively, and maintain precision under pressure."
         }]
       }
     ]

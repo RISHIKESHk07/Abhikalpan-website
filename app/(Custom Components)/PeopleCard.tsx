@@ -7,7 +7,7 @@ import Mail from "@/public/images/Email.png";
 import Image, { StaticImageData } from "next/image";
 import Phone from "@/public/images/Phone.png";
 import { useToast } from "@/hooks/use-toast";
-function PeopleCard({src ,name ,event ,mail,phone}:{src:string|StaticImageData,name:string,event:string,mail:string,phone:string}) {
+function PeopleCard({src ,name ,event ,mail, phone}:{src:string|StaticImageData,name:string,event:string,mail:string,phone:string}) {
   
   const { toast } = useToast();
 

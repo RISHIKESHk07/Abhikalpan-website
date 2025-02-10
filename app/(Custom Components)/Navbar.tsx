@@ -21,12 +21,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="mb-[20px] md:hidden flex justify-between w-full items-center px-4 py-2 z-50"
-      >
-        <Image src={Logo} alt="logo" className="w-25 h-20 z-50" />
+      <div className="md:hidden flex justify-between w-full items-center px-4 py-2 z-50 bg-pink-300/300">
+      <Image src={Logo} alt="logo" className="w-[40vw] z-50" />
         <button
           onClick={toggleSidebar}
-          className="text-white  z-50 focus:outline-none"
+          className="text-white z-50 focus:outline-none self-start mt-[1.6vw]"
         >
           <Menu className="w-6 h-6 " />
         </button>

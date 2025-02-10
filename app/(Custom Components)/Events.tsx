@@ -22,7 +22,7 @@ export default function Events() {
   ];
 
   return (
-    <section className="p-8 mt-10 flex flex-col w-screen justify-center items-center relative">
+    <section className="p-8 mt-10 md:mt-20 flex flex-col w-screen justify-center items-center relative">
     
       <div className="font-inter mb-[10vw] md:text-[5.5vw] text-[10vw] bg-blue-500 w-full flex items-center justify-center">
         <h1 className="z-0 blur-sm text-[#01F8FF] absolute top-0">Events</h1>

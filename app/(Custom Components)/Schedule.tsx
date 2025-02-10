@@ -78,7 +78,7 @@ const Schedule: React.FC = () => {
   return (
     <section className="w-full py-8 relative">
       {/* Header */}
-      <div className="text-center pb-[5vw] pl-[9vw] font-inter relative md:text-[4vw] text-[7vw]">
+      <div className="text-center pb-[8vw] pl-[9vw] font-inter relative md:text-[6vw] text-[9vw]">
           <h1 className='absolute text-white z-40'>Schedule</h1>
           <h1 className='absolute text-[#01F8FF] blur-sm z-0'>Schedule</h1>
       </div>

@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../(Custom Components)/Navbar";
 import Footer from "../(Custom Components)/Footer";
 import Container from "@/public/images/EventsCardContainer.png";
-import Container2 from "@/public/images/EventsCardContainer2.png";
 import Strip from "@/public/images/EventsStrip.png";
 import Image from "next/image";
 import ContainerButton from "@/public/images/PeopleContainerTitle.png";
@@ -436,11 +435,11 @@ function page() {
                   maxHeight: "750px",
                 }}
               >
-                <div className="flex flex-col items-start justify-center text-white bg-opacity-50 mb-10 md:mb-[120px] mt-[20px] ml-[20px]">
+                <div className="flex flex-col items-start justify-center text-white bg-opacity-50 mb-10 md:mb-[120px] mt-[20px] ml-[15px]">
                   <p className="text-white font-genos font-normal text-[5vw] sm:text-[6vw] md:text-[48px]">
                     By,
                   </p>
-                  <h1 className="text-white font-aporo font-normal text-[7vw] sm:text-[7vw] md:text-[52px]">
+                  <h1 className="text-white font-aporo font-normal text-[7vw] sm:text-[7vw] md:text-[52px] md:w-[580px]">
                     {club.fullName}
                   </h1>
                   <Image
@@ -450,7 +449,7 @@ function page() {
                     height={10}
                     className="mb-[5px] md:mb-[12px] lg:mb-[38px] mt-[6px] md:mt-[12px] w-[240px] md:w-[398px]"
                   />
-                  <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] leading-snug">
+                  <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] w-[290px] md:w-[500px]">
                     {club.description}
                   </p>
                 </div>
@@ -506,15 +505,10 @@ function page() {
                 </Accordion>
               </section>
               <section
-                className="mt-[100px] w-full md:w-[555px] lg:w-[689px] h-[450px] md:h-[600px]"
-                style={{
-                  backgroundImage: `url(${Container2.src})`,
-                  backgroundSize: "contain",
-                  backgroundRepeat: "no-repeat",
-                  maxWidth: "740px",
-                  maxHeight: "750px",
-                }}
-              >
+  className="mt-[100px] w-full md:w-[555px] lg:w-[689px] h-[450px] md:h-auto
+		   bg-[url('/images/EventsCardContainer.png')] lg:bg-[url('/images/EventsCardContainer2.png')] 
+		   bg-contain bg-no-repeat max-w-[740px] max-h-[750px]">
+
                 <div className="flex flex-col items-start justify-center text-white bg-opacity-50 mb-10 md:mb-[120px] mt-[20px] ml-[20px]">
                   <p className="text-white font-genos font-normal text-[5vw] sm:text-[6vw] md:text-[48px]">
                     By,
@@ -529,7 +523,7 @@ function page() {
                     height={10}
                     className="mb-[5px] md:mb-[12px] lg:mb-[38px] mt-[6px] md:mt-[12px] w-[240px] md:w-[398px]"
                   />
-                  <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] leading-snug">
+                  <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] w-[290px] md:w-[500px]">
                     {club.description}
                   </p>
                 </div>

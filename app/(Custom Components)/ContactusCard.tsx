@@ -7,8 +7,8 @@ import Mail from "@/public/images/Email.png";
 import Insta from "@/public/images/mdi_instagram.png";
 import Linkdln from "@/public/images/Linkdln.png";
 import X from "@/public/images/prime_twitter.png";
-import Image from "next/image";
-function ContactusCard({name, email,phone}: {name:string, email:string, phone:string}) {
+import Image, { StaticImageData } from "next/image";
+function ContactusCard({name, email,phone,src}: {name:string, email:string, phone:string ,src:StaticImageData}) {
   return (
     <div className="relative">
       <section
@@ -35,8 +35,8 @@ function ContactusCard({name, email,phone}: {name:string, email:string, phone:st
               Event Coordinator
             </p>
           </section>
-          <div className=" w-[280px] sm:w-[396.5px] h-[129.5px] sm:h-[183.5px] p-2 mx-auto my-1 bg-gray-400 full rounded">
-            Profile Pic
+          <div>
+            <Image src={src} alt="profile image" className=" w-[170px] sm:w-[226.5px] h-[129.5px] sm:h-[183.5px] p-2 mx-auto my-1 bg-gray-400 full rounded" />
           </div>
           <div className="flex gap-[11px] justify-start items-center m-2">
             <section>
@@ -45,7 +45,6 @@ function ContactusCard({name, email,phone}: {name:string, email:string, phone:st
                 alt="line"
                 width={30}
                 height={110}
-                
                 className="w-[2px] md:w-[2px] h-[60px] md:h-[110px]"
               />
             </section>

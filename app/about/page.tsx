@@ -75,19 +75,19 @@ const page = () => {
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/images/pdpm1.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px]  hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG2.png"
+            src="/images/pdpm2.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px]  hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG1.png"
+            src="/images/pdpm3.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px]  hover:scale-105 transition 500 rounded-lg"
           />
         </div>
       </section>
@@ -144,28 +144,34 @@ const page = () => {
           </p>
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
-          <img
-            src="/images/IMG1.png"
-            alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
-          />
-          <img
-            src="/images/IMG2.png"
-            alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
-          />
-          <img
-            src="/images/IMG1.png"
-            alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
-          />
+          <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
+            <img
+              src="/images/abhi1.jpg"
+              alt=""
+              className="w-[290px] sm:w-[457px] h-auto hover:scale-105 transition 500 rounded-lg"
+            />
+            <img
+              src="/images/abhi2.jpg"
+              alt=""
+              className="w-[290px] sm:w-[364px] h-auto hover:scale-105 transition 500 rounded-lg"
+            />
+            <img
+              src="/images/abhi3.jpg"
+              alt=""
+              className="w-[290px] sm:w-[457px] h-auto hover:scale-105 transition 500 rounded-lg"
+            />
+          </div>
         </div>
-        <Image src={gears} alt="gears" className="absolute top-0 -left-[30vw] -z-10 opacity-15" />
+        <Image
+          src={gears}
+          alt="gears"
+          className="absolute top-0 -left-[30vw] -z-10 opacity-15"
+        />
       </section>
       {/* Left Side 2 */}
       <section style={{}} className="relative">
         <section
-          className="relative w-full md:min-h-[310px]" 
+          className="relative w-full md:min-h-[310px]"
           style={{
             backgroundImage: `url(${Bg.src})`,
             backgroundSize: "contain",
@@ -206,22 +212,26 @@ const page = () => {
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/images/pic1.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG2.png"
+            src="/images/pic3.jpg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[360px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
-            src="/images/IMG1.png"
+            src="/images/pic13.jpeg"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
         </div>
-        <Image src={gears} alt="gears" className="absolute top-0 -right-[35vw] -z-10 opacity-15" />
+        <Image
+          src={gears}
+          alt="gears"
+          className="absolute top-0 right-[1vw] -z-10 opacity-15"
+        />
       </section>
       {/* Right side 2 */}
       <section className="mt-[32px] ml-0">
@@ -251,31 +261,31 @@ const page = () => {
         </section>
         <div className="text-right text-white font-hellvitica text-[10px] md:text-[20px] mr-[5vw] leading-[23px] ml-auto">
           <p>
-          Media Outreach plays a crucial role in amplifying the impact of{" "}
-              <br />
-              events and activities at IIITDM Jabalpur, ensuring they reach a{" "}
-              <br />
-              wider audience. It involves strategically engaging with various{" "}
-              <br />
-              media platforms to promote the institute’s initiatives, <br />
-              achievements, and events like Abhikalpan, and Tarang. <br />
+            Media Outreach plays a crucial role in amplifying the impact of{" "}
+            <br />
+            events and activities at IIITDM Jabalpur, ensuring they reach a{" "}
+            <br />
+            wider audience. It involves strategically engaging with various{" "}
+            <br />
+            media platforms to promote the institute’s initiatives, <br />
+            achievements, and events like Abhikalpan, and Tarang. <br />
           </p>
         </div>
         <div className="flex gap-10 justify-center flex-wrap mx-auto m-6">
           <img
-            src="/images/IMG1.png"
+            src="/images/Media3.png"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
           />
           <img
-            src="/images/IMG2.png"
+            src="/images/Media2.png"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
           />
           <img
-            src="/images/IMG1.png"
+            src="/images/Media1.png"
             alt=""
-            className="w-[200px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
           />
         </div>
       </section>

@@ -5,8 +5,9 @@ import PeopleCard from "../(Custom Components)/PeopleCard";
 import { StaticImageData } from "next/image";
 
 const images = {
-  Organizer7: "/images/Organizer7.jpeg",
-  Organizer2: "/images/Organizer2.jpg",
+  Organizer7: "/images/SankalpUpdated.jpeg",
+  Chetan: "/images/chetan.jpeg",
+  Organizer2: "/images/AnuragUpdated.jpeg",
   Organizer3: "/images/Organizer3.jpeg",
   Organizer4: "/images/Organizer4.jpg",
   Organizer5: "/images/Organizer5.jpg",
@@ -43,11 +44,13 @@ const images = {
   RC2: "/images/Aiswarya Coordinator Autotrivia.jpeg",
   RC3: "/images/Anish Coordinator EV WORKSHOP .jpg",
   RC4: "/images/Anmol Kumar Seminar Coordinator .jpg",
-  B2: "/images/NITIN PANDEY(Coordinator) Trading.jpg"
+  B2: "/images/NITIN PANDEY(Coordinator) Trading.jpg",
+
 };
 
 const coreCommittee = [
   { name: "Sankalp", event: "STUDENT FEST CONVENOR", src: images.Organizer7 , phone: "8409646129" },
+  { name: "Chetan", event: "STUDENT FEST CONVENOR", src: images.Chetan , phone: "70009 47461" },
   { name: "Anurag", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer2 , phone: "9876543210"},
   { name: "Gurleen", event: "DESIGN LEAD", src: images.Organizer3, phone: "7304245055" },
   { name: "Falguni", event: "DESIGN LEAD", src: images.Organizer31, phone: "7038154301" },
@@ -64,7 +67,7 @@ const coreCommittee = [
   { name: "RAKSHIT", event: "SPONSOR LEAD", src: images.Organizer16 , phone: "9876543210"},
   { name: "Aniket", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer17, phone: "7996363111" },
   { name: "ALOK", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer18 , phone: "9151348969"},
-  { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 , phone: "9876543210"}
+  { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 , phone: "9876543210"},
 ];
 
 const coordinators = [

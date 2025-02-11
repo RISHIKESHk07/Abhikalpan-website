@@ -13,6 +13,7 @@ export default function Events() {
   const events: EventItem[] = [
     { title: "ROBORUSH", size: "h-56", image: "/eventphoto/roborush.jpg" },
     { title: "SAE Supra", size: "h-64", image: "/eventphoto/racing.jpg" },
+    {title: "INTRO TO DEV", size: "h-64", image: "/eventphoto/event8.jpg" },
     { title: "APS Workshop", size: "h-48", image: "/eventphoto/aps.jpg" },
     { title: "WATER ROCKET", size: "h-48", image: "/eventphoto/afc.jpg" },
     { title: "MAD4CAD", size: "h-72", image: "/eventphoto/cad.jpg" },

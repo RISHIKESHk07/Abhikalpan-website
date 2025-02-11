@@ -52,7 +52,7 @@ function PeopleCard({src ,name ,event ,mail, phone}:{src:string|StaticImageData,
           </section>
         </div>
         <div className="flex flex-col items-center gap-[25px]">
-          <Image  src={src} alt={'people'} width={297} height={233}  className=" w-[237px] sm:w-[296.76px] h-[180px] sm:h-[233.38px] bg-[#FFFFFF33] mt-[40px] sm:mt-[65px] rounded-md"/>
+          <Image  src={src} alt={'people'} width={297} height={233}  className=" w-[210px] sm:w-[236.76px] h-[180px] sm:h-[233.38px] bg-[#FFFFFF33] mt-[40px] sm:mt-[65px] rounded-md"/>
           <div className="flex justify-center items-center w-[237px] sm:w-[296.76px] h-[45px] sm:h-[74.59px] bg-[#0C97A0F5] text-center text-white font-aporo rounded-sm p-1">
             <p>{event}</p>
           </div>

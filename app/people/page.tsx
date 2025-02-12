@@ -45,6 +45,7 @@ const images = {
   RC3: "/images/Anish Coordinator EV WORKSHOP .jpg",
   RC4: "/images/Anmol Kumar Seminar Coordinator .jpg",
   B2: "/images/NITIN PANDEY(Coordinator) Trading.jpg",
+  Organizer20:"/images/Organizer20.jpg",
 
 };
 
@@ -68,6 +69,7 @@ const coreCommittee = [
   { name: "Aniket", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer17, phone: "7996363111" },
   { name: "ALOK", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer18 , phone: "9151348969"},
   { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 , phone: "9876543210"},
+  {name:"Harsh singh " , event:"BRANDING TEAM LEAD", src:images.Organizer20,phone:"63932 77329" }
 ];
 
 const coordinators = [

@@ -276,7 +276,7 @@ const clubsData = [
   },
   {
     name: "CAD",
-    fullName: "COMPUTER AIDED DESIGN",
+    fullName: "CAD & 3D PRINTING CLUB",
     description: "The CAD and 3D Printing Club of IIITDM Jabalpur fosters creativity and innovation through design and prototyping. Focused on advancing technical skills, it organizes workshops, competitions, and projects, providing a platform for students to explore cutting-edge technologies in CAD, 3D modeling, and additive manufacturing.",
     events: [
       {

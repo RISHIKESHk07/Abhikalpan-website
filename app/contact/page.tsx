@@ -13,8 +13,8 @@ const page = () => {
                 <p className=" text-center text-[10px] md:text-[22px] font-hellvitica text-white">For any queries regarding any section mentioned feel free to contact.</p>
             </div>
             <div className="flex flex-wrap justify-around items-center mx-auto mb-[48px]">
-            <ContactUs name={"Chetan Anand Jhariya"} phone={"+91 70009 47461"} email={"22bme021@iiitdmj.ac.in"} src={sankalp} />
-            <ContactUs name={"Sankalp"} phone={"+91 84096 46129"} email={"22bme05@iiitdmj.ac.in"} src={chetan} />
+            <ContactUs name={"Chetan Anand Jhariya"} phone={"+91 70009 47461"} email={"22bme021@iiitdmj.ac.in"} src={chetan} />
+            <ContactUs name={"Sankalp"} phone={"+91 84096 46129"} email={"22bme05@iiitdmj.ac.in"} src={sankalp} />
             <ContactUs name={"Dr. Yashpal Singh Katharria"} phone={"+91 81075 91910"} email={"yashpalk@iiitdmj.ac.in"} src={yashpal} />
             </div>
             <Footer/>

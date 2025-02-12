@@ -2,7 +2,6 @@ import Navbar from "./(Custom Components)/Navbar";
 import Footer from "./(Custom Components)/Footer";
 import Main from "./(Custom Components)/Main";
 import Events from "./(Custom Components)/Events";
-import Highlights from "./(Custom Components)/Highlights";
 import Schedule from "./(Custom Components)/Schedule";
 import AboutUs from "./(Custom Components)/Aboutus";
 
@@ -13,7 +12,7 @@ export default function Home() {
         <Main />
         <AboutUs/>
         <Schedule/>
-        <Highlights/>
+        {/* <Highlights/> */}
         <Events/>
         <Footer />
     </div>

@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import circle from '@/public/images/circle.svg'
-import twitter from '@/public/images/twitter.png'
-import instagram from '@/public/images/instagram.png'
-import linkedin from '@/public/images/linkedin.png'
-
+import twitter from "@/public/images/twitter.png";
+import instagram from "@/public/images/instagram.png";
+import linkedin from "@/public/images/linkedin.png";
+import Slideshow from "./Slider";
 
 const AboutUs = () => {
   return (
@@ -49,11 +48,7 @@ const AboutUs = () => {
           </button>
         </div>
       </div>
-      <Image
-        className="absolute w-[35vw] -right-[5vw]"
-        src={circle}
-        alt="circle"
-      />
+      <Slideshow/>
     </div>
   );
 };

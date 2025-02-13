@@ -12,6 +12,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+
+export const metadata = {
+  title: "Events at Abhikalpan'25 - IIITDM Jabalpur TechFest",
+  description: "Explore the exciting tech and design events at Abhikalpan'25...",
+  alternates: {
+    canonical: "https://www.abhikalpan.live/events",
+  },
+  robots: { index: true, follow: true },
+};
+
 interface AccordionSubItem {
   heading: string;
   subtext: string;

@@ -4,6 +4,16 @@ import Navbar from "../(Custom Components)/Navbar";
 import sankalp from "@/public/images/SankalpUpdated.jpeg"
 import chetan from "@/public/images/chetan.jpeg";
 import yashpal from "@/public/images/yashpal.jpg"
+
+export const metadata = {
+    title: "Contact Abhikalpan'25 - IIITDM Jabalpur TechFest",
+    description: "Learn more about Abhikalpan'25, the techfest of IIITDM Jabalpur through are contacts below...",
+    alternates: {
+      canonical: "https://www.abhikalpan.live/contac",
+    },
+    robots: { index: true, follow: true },
+  };
+
 const page = () => {
     return (
         <section className="min-h-screen bg-[#074144]">

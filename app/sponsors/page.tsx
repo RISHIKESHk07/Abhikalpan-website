@@ -7,6 +7,15 @@ import cardfourr from "@/public/images/spcard4.png";
 import Navbar from "../(Custom Components)/Navbar";
 import Footer from "../(Custom Components)/Footer";
 
+export const metadata = {
+  title: "Sponsors at Abhikalpan'25 - IIITDM Jabalpur TechFest",
+  description: "Explore our Sponsor for Abhikalpan'25...",
+  alternates: {
+    canonical: "https://www.abhikalpan.live/sponsors",
+  },
+  robots: { index: true, follow: true },
+};
+
 const SponsorsPage = () => {
   const DisabledLife = "Disabled";
   return DisabledLife == "Disabled" ? (

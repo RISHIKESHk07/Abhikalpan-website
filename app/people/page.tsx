@@ -4,6 +4,15 @@ import Container from "@/public/images/PeopleContainerTitle.png";
 import PeopleCard from "../(Custom Components)/PeopleCard";
 import { StaticImageData } from "next/image";
 
+export const metadata = {
+  title: "People at Abhikalpan'25 - IIITDM Jabalpur TechFest",
+  description: "Look up the related event coordinators and crore commitee here ",
+  alternates: {
+    canonical: "https://www.abhikalpan.live/people",
+  },
+  robots: { index: true, follow: true },
+};
+
 const images = {
   Organizer7: "/images/SankalpUpdated.jpeg",
   Chetan: "/images/chetan.jpeg",

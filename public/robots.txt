@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.abhikalpan.live
+
+# Sitemaps
+Sitemap: https://www.abhikalpan.live/sitemap.xml

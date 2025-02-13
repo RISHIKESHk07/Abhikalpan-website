@@ -6,6 +6,15 @@ import Bg2 from "@/public/images/part2.png";
 import gears from "@/public/images/circle_dark.png";
 import Image from "next/image";
 
+export const metadata = {
+  title: "About Abhikalpan'25 - IIITDM Jabalpur TechFest",
+  description: "Learn more about Abhikalpan'25, the techfest of IIITDM Jabalpur...",
+  alternates: {
+    canonical: "https://www.abhikalpan.live/about",
+  },
+  robots: { index: true, follow: true },
+};
+
 const page = () => {
   return (
     <>

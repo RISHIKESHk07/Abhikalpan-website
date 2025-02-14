@@ -284,27 +284,17 @@ const page = () => {
           <img
             src="/images/Media3.png"
             alt=""
-            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
-          />
-          <img
-            src="/images/Media2.png"
-            alt=""
-            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
-          />
-          <img
-            src="/images/Media1.png"
-            alt=""
-            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
             src="/images/news1.png"
             alt=""
-            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
           <img
             src="/images/news2.jpg"
             alt=""
-            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
+            className="w-[290px] sm:w-[457px] h-[250px] hover:scale-105 transition 500 rounded-lg"
           />
         </div>
       </section>

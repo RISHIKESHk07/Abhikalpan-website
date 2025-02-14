@@ -3,7 +3,7 @@ import Slideshow from "./Slider";
 
 const AboutUs = () => {
   return (
-    <div className="flex items-center bg-pink-500/500 h-[100vw] mb-[20vw] top-[40vw] text-left relative bg-pink-500/500">
+    <div className="flex items-center bg-pink-500/500 h-[50vw] mb-[80vw] top-[70vw] text-left relative bg-pink-500/500">
       <div className="p-8 text-left">
         {/* Title */}
         <h1 className="text-[4vw] text-white font-bold mb-6 font-aporo">

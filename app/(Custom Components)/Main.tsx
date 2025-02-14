@@ -11,10 +11,10 @@ const Main = () => {
       <div className="w-full absolute bg-pink-500/500 flex items-center justify-end">
         <Image src={sdcard_img} alt="sd Card" className="w-full -z-10" />
         <img
-                src="/images/logo2.png"
-                alt="Logo"
-                className="absolute mr-[50vw] w-[40vw] sm:w-[50vw] h-[20vw] sm:h-[18vw] md:w-[300px] md:h-[110px] lg:w-[30vw] lg:h-[20vh] mt-[3vw] sm:mt-[2vw] md:mt-[1vw]"
-              />
+          src="/images/logo2.png"
+          alt="Logo"
+          className="absolute mr-[50vw] w-[40vw] sm:w-[50vw] h-[20vw] sm:h-[18vw] md:w-[300px] md:h-[110px] lg:w-[30vw] lg:h-[20vh] mt-[3vw] sm:mt-[2vw] md:mt-[1vw]"
+        />
         <div className="w-[40%] h-[55%] mb-10 absolute bg-blue-600/600 flex flex-col justify-center pr-10">
           <p className="text-white text-[4vw] font-genos text-center self-end ">
             From
@@ -33,21 +33,24 @@ const Main = () => {
           </p>
         </div>
 
-        <div className="absolute self-end w-[38vw] mb-1 flex items-center justify-center">
-          <Image
-            className=" w-[38vw]"
-            src={register_now_bg}
-            alt="registenow_button"
-          />
-          <Image
-            className=" bottom-[0.5vw] right-[2vw] w-[8vw] absolute"
-            src={register_bottom_img}
-            alt="register_bottom_img"
-          />
-          <p className="absolute font-genos text-white text-[2.8vw]">
-            Register Now
-          </p>
-        </div>
+        <a href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
+          className="absolute self-end w-[38vw] mb-1 flex items-center justify-center z-50">
+          <div className="absolute self-end w-[38vw] mb-0 flex items-center justify-center">
+            <Image
+              className=" w-[38vw]"
+              src={register_now_bg}
+              alt="registenow_button"
+            />
+            <Image
+              className=" bottom-[0.5vw] right-[2vw] w-[8vw] absolute"
+              src={register_bottom_img}
+              alt="register_bottom_img"
+            />
+            <p className="absolute font-genos text-white text-[2.8vw]">
+              Register Now
+            </p>
+          </div>
+        </a>
         {/* <div className="h-10 flex items-center absolute -bottom-[6vw] left-0 justify-center w-[20vw] bg-blue-500/500 pl-2">
           <Image
             src={eventschedule}

@@ -1,8 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import twitter from "@/public/images/twitter.png";
-import instagram from "@/public/images/instagram.png";
-import linkedin from "@/public/images/linkedin.png";
 import Slideshow from "./Slider";
 
 const AboutUs = () => {
@@ -25,30 +21,38 @@ const AboutUs = () => {
           amongst others.
         </p>
         <div className="flex gap-4">
-          <button>
-            <Image
-              src={twitter}
-              alt="Twitter"
-              className="hover:opacity-80 md:w-[4vw] w-[7vw]"
-            />
-          </button>
-          <button>
-            <Image
-              src={instagram}
-              alt="Instagram"
-              className="hover:opacity-80 md:w-[4vw] w-[7vw]"
-            />
-          </button>
-          <button>
-            <Image
-              src={linkedin}
-              alt="LinkedIn"
-              className="hover:opacity-80 md:w-[4vw] w-[7vw]"
-            />
-          </button>
+          <div className="flex space-x-4">
+            <a
+              href="https://x.com/Abhikalpanfest?t=k9TVaA4kf8Zwb6yrR-xK3Q&s=09"
+              aria-label="Twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyan-300"
+            >
+              <img className=" w-6 sm:w-12  h-6 sm:h-12" src="/images/twitter.png" />
+            </a>
+            <a
+              href="https://www.instagram.com/abhikalpan_iiitdmj?igsh=MTI3cWo2ODd4dTFtZQ=="
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyan-300"
+            >
+              <img className=" w-6 sm:w-12  h-6 sm:h-12" src="/images/instagram.png" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abhikalpan-iiitdmj-2k19?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyan-300"
+            >
+              <img className=" w-6 sm:w-12  h-6 sm:h-12" src="/images/linkedin.png" />
+            </a>
+          </div>
         </div>
       </div>
-      <Slideshow/>
+      <Slideshow />
     </div>
   );
 };

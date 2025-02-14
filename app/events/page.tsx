@@ -287,7 +287,7 @@ const clubsData = [
   {
     name: "CAD",
     fullName: "CAD & 3D PRINTING CLUB",
-    description: "The CAD and 3D Printing Club of IIITDM Jabalpur fosters creativity and innovation through design and prototyping. Focused on advancing technical skills, it organizes workshops, competitions, and projects, providing a platform for students to explore cutting-edge technologies in CAD, 3D modeling, and additive manufacturing.",
+    description: "The CAD and 3D Printing Club of IIITDM Jabalpur fosters creativity and innovation through design and prototyping, offering workshops, competitions, and projects for students to explore CAD, 3D modeling, and additive manufacturing.",
     events: [
       {
         title: "CREATION CHALLENGE & 3D PRINTING",
@@ -531,9 +531,9 @@ function page() {
                     alt="strip"
                     width={398}
                     height={10}
-                    className="mb-[5px] md:mb-[12px] lg:mb-[38px] mt-[6px] md:mt-[12px] w-[240px] md:w-[398px]"
+                    className="mb-[5px] md:mb-[12px] lg:mb-[25px] mt-[6px] md:mt-[12px] w-[240px] md:w-[398px]"
                   />
-                  <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] w-[290px] md:w-[500px]">
+                  <p className="text-white font-hellvitica font-light text-[12px] lg:text-[20px] w-[290px] md:w-[530px]">
                     {club.description}
                   </p>
                 </div>

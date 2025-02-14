@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import sdcard_img from "@/public/images/sdcard_img.svg";
 import register_now_bg from "@/public/images/register_now_bg.svg";
-import eventschedule from "@/public/images/eventschedule.svg";
 import knowmore from "@/public/images/knowmore_side_img.svg";
 import register_bottom_img from "@/public/assets/register_now_bottom_img.svg";
 
@@ -49,7 +48,7 @@ const Main = () => {
             Register Now
           </p>
         </div>
-        <div className="h-10 flex items-center absolute -bottom-[6vw] left-0 justify-center w-[20vw] bg-blue-500/500 pl-2">
+        {/* <div className="h-10 flex items-center absolute -bottom-[6vw] left-0 justify-center w-[20vw] bg-blue-500/500 pl-2">
           <Image
             src={eventschedule}
             alt="event_schedule"
@@ -58,8 +57,8 @@ const Main = () => {
           <p className="absolute text-[2.2vw] text-[#FFFFFF] font-genos">
             Event Schedule
           </p>
-        </div>
-        <div className="h-10 flex items-center absolute -bottom-[6vw] right-0 justify-between pl-[3vw] w-[19vw] bg-blue-500/500 px-2">
+        </div> */}
+        <div className="h-10 flex items-center absolute -bottom-[8vw]  sm:-bottom-[6vw] right-0 justify-between pl-[3vw] w-[19vw] bg-blue-500/500 px-2">
           <p className="text-[2.3vw] text-[#FFFFFF] font-genos">Know More</p>
           <Image src={knowmore} alt="knowmore" className="w-[2.5vw]" />
         </div>

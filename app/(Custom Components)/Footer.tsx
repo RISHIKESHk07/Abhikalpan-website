@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="text-white py-8 border-t border-white/50 mx-8">
       <div className="container mx-auto px-4 flex flex-col space-y-8 md:space-y-0 md:flex-row justify-between">
-        
+
         <div className="flex flex-col items-start space-y-6 md:w-1/2">
           <img
             src="/assets/AbhikalpanLogo.svg"
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-end space-y-6 md:w-1/2">
           <a
-            href="/register"
+            href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
             className="self-end text-right"
           >
             <img

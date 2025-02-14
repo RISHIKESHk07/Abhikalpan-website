@@ -296,6 +296,16 @@ const page = () => {
             alt=""
             className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
           />
+          <img
+            src="/images/news1.png"
+            alt=""
+            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
+          />
+          <img
+            src="/images/news2.jpg"
+            alt=""
+            className="w-[290px] sm:w-auto h-auto hover:scale-105 transition 500"
+          />
         </div>
       </section>
       <Footer />

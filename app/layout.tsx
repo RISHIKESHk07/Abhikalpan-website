@@ -46,6 +46,9 @@ export const metadata : Metadata = {
   alternates: {
     canonical: "https://www.abhikalpan.live",
   },
+  icons: {
+    icon: '/assets/AbhikalpanLogo.svg', // Path to your favicon in public folder
+  },
   robots: {
     index: true,
     follow: true,

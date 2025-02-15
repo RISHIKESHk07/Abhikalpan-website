@@ -20,7 +20,7 @@ const page = () => {
     <>
       {/* Added overflow-hidden */}
       <Navbar />
-      <div className="flex justify-end m-10 mt-[60px] sm:mt-[180px] leading-[64px] items-center mr-[5vw]">
+      <div className="flex justify-end  mt-[60px] sm:mt-[320px] leading-[64px] items-center mr-[5vw]">
         <img
           src="/images/About2.png"
           alt=""

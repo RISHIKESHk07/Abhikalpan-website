@@ -22,7 +22,7 @@ const SponsorsPage = () => {
     <div>
       <Navbar />
       <div 
-        className="mt-[160px]  text-[28px] md:text-[35.6px] mb-[3vh]  font-bold tracking-widest 
+        className="mt-[240px]  text-[28px] md:text-[35.6px] mb-[3vh]  font-bold tracking-widest 
        font-aporo uppercase text-white  min-h-screen w-full"
       ><p className="text-center mt-[40px]">Page under construction !!!</p></div>
       <Footer/>

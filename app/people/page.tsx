@@ -55,13 +55,15 @@ const images = {
   RC4: "/images/Anmol Kumar Seminar Coordinator .jpg",
   B2: "/images/NITIN PANDEY(Coordinator) Trading.jpg",
   Organizer20:"/images/Organizer20.jpg",
+  Organizer21:"/images/Organizer21.jpeg",
+  Organizer22:"/images/Organizer22.jpg",
 
 };
 
 const coreCommittee = [
   { name: "Sankalp", event: "STUDENT FEST CONVENOR", src: images.Organizer7 , phone: "8409646129" },
   { name: "Chetan", event: "STUDENT FEST CONVENOR", src: images.Chetan , phone: "70009 47461" },
-  { name: "Anurag", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer2 , phone: "9876543210"},
+  { name: "Anurag", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer2 , phone: "9135384332"},
   { name: "Gurleen", event: "DESIGN LEAD", src: images.Organizer3, phone: "7304245055" },
   { name: "Falguni", event: "DESIGN LEAD", src: images.Organizer31, phone: "7038154301" },
   { name: "Shivanshu", event: "FINANCE LEAD", src: images.Organizer4 , phone: "7607990976"},
@@ -78,7 +80,9 @@ const coreCommittee = [
   { name: "Aniket", event: "INFRA & ACCOMDATION LEAD", src: images.Organizer17, phone: "7996363111" },
   { name: "ALOK", event: "EVENTS & WORKSHOP LEAD", src: images.Organizer18 , phone: "9151348969"},
   { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 , phone: "9876543210"},
-  {name:"Harsh singh " , event:"BRANDING TEAM LEAD", src:images.Organizer20,phone:"63932 77329" }
+  {name:"Harsh singh " , event:"BRANDING TEAM LEAD", src:images.Organizer20,phone:"6393277329" },
+  {name: "Prateek Pandey" , event:"EVENTS & WORKSHOP LEAD" , src:images.Organizer21 , phone:"9892537975"},
+  {name: "Akash Viswakarna" ,event:"INFRA & ACCOMDATION LEAD" , src:images.Organizer22 ,phone:"8291473674"}
 ];
 
 const coordinators = [

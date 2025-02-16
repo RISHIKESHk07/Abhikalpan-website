@@ -47,9 +47,15 @@ export default function Events() {
               />
             ) : (
 
-              <h1 className="absolute inset-0 flex justify-center items-center text-white text-3xl font-semibold font-genos z-10">
-                Know More
-              </h1>
+              <a
+              href="https://unstop.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute inset-0 flex justify-center items-center text-white text-3xl font-semibold font-genos z-10"
+            >
+              <h1>Know More</h1>
+            </a>
+            
 
             )}
 

@@ -422,7 +422,7 @@ const EventAccordionItem = ({
               }}
             >
               <a
-                href="https://unstop.com/"
+                href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
                 className="font-aporo text-[12px] md:text-[14px] text-center text-white leading-[40px] pl-[30px]"
               >
                 Register Now

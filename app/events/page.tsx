@@ -43,7 +43,7 @@ const clubsData = [
             subtext:
               "The FPV Maze Solver competition challenges participants to design a bot that navigates a maze while overcoming obstacles. It tests robotics, programming, and problem-solving skills, fostering innovation and teamwork.",
             heading: "FPV MAZE SOLVER",
-            link: "https://docs.google.com/document/d/10TtbHbDlYUq3mH3K56FjasiBTS30DxgwVZ1o6iI6M64/edit?usp=drive_link",
+            link: "https://drive.google.com/file/d/1AXt9lK37gVk8lC0ter6sW1_tiaaX5aYB/view?usp=sharing",
           },
         ],
       },
@@ -54,7 +54,7 @@ const clubsData = [
             subtext:
               "The RoboWar competition challenges participants to design and build robots that battle in an arena, testing durability, strategy, and engineering excellence.",
             heading: "RoboWars",
-            link: "https://docs.google.com/document/d/1prbDKBaX0btHOiNIMNPK87MBN0lHfm0emvjvzkE4VPs/edit?usp=drive_link",
+            link: "https://drive.google.com/file/d/1O2eLiEVNAE3zwn5W-Pk9sowudq9GhpH4/view?usp=drive_link",
           },
         ],
       },
@@ -84,7 +84,7 @@ const clubsData = [
             subtext:
               " This competition tests problem-solving and analytical skills. Teams propose solutions in two rounds: online submission and offline presentation. Judging criteria include creativity, feasibility, clarity, and analytical quality. It offers a platform to showcase critical thinking and innovation ",
             heading: "Eclipse - Case Study",
-            link: "https://docs.google.com/document/d/1fanQHfe75M9hQjFvo6JurZWTxwA3Mc1_/edit?usp=drive_link&ouid=106216020587041742880&rtpof=true&sd=true",
+            link: "https://drive.google.com/file/d/1nh3aM8v2rw4DUUVdEhzJ9WxBqJ3Y8KTc/view?usp=drive_link",
           },
         ],
       },
@@ -117,7 +117,7 @@ const clubsData = [
             subtext:
               "The competition challenges teams to design and build a lander that encapsulates and protects a specified fragile object, survives impact and landing tests while maintaining stability, and demonstrates precision in touchdown along with creative engineering solutions.",
             heading: "Touchdown Triumph",
-            link: "https://drive.google.com/file/d/1pMlBwTA7_c7S6LtjqBLFLbj8HRNRQqhp/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/17ZMGrmVERSOra0BPihrQVNZKuUTDSqo5/view?usp=drive_link",
           },
         ],
       },
@@ -136,7 +136,7 @@ const clubsData = [
             heading: "Gaming Tournament",
             subtext:
               "Echelon is a high-stakes Valorant tournament where the sharpest teams battle for supremacy. With online and offline rounds, only the best will make it to the finals. The event offers thrilling competition, cash prizes, and ultimate bragging rights.",
-            link: "https://docs.google.com/document/d/1mwjBI52ha-0yoc2Y0cdNGLvvFZh5Qf7UbDbzG3i5clA/edit?usp=drive_link",
+            link: "https://drive.google.com/file/d/18j2xi54siHKpummxhmCBaaYSG7NAQAOq/view?usp=drive_link",
           },
         ],
       },
@@ -147,7 +147,7 @@ const clubsData = [
             heading: "ICPC-Style Contest",
             subtext:
               "The Code Arena is an ICPC-style contest on Codeforces, testing problem-solving, algorithms, and coding efficiency. With fair rankings, exciting prizes, and diverse challenges, it’s a must-attend for coding enthusiasts.",
-            link: "https://docs.google.com/document/d/1FF7LHw3rYyqSXpv_PXRvSBSPrUhAYxtexppudgjL4gA/edit?usp=sharing",
+            link: "https://drive.google.com/file/d/1GRkVaMY74QPxnTlffDNODWwuemVeUaVG/view?usp=drive_link",
           },
         ],
       },
@@ -158,7 +158,7 @@ const clubsData = [
             heading: "CSS Competition",
             subtext:
               "CSS Battlefield is a fast-paced competition where participants replicate designs with pixel-perfect precision using pure CSS. Tasks include 3 still images and 2 animated GIFs, testing speed, creativity, and attention to detail.",
-            link: "https://docs.google.com/document/d/1HYJEE4aLPGwMJEQjW8c5ksCC3C_35E-v5phIU2BVWbo/edit?usp=drive_link",
+            link: "https://drive.google.com/file/d/1KyHRQPbfa8KI5dDKNsItdXAQorGh0j4j/view?usp=drive_link",
           },
         ],
       },
@@ -177,7 +177,7 @@ const clubsData = [
             heading: "AERORUSH",
             subtext:
               "The Aero Rush Drone Design Competition challenges students to create innovative multirotor drone designs using CAD tools, emphasizing efficiency, precision, and creativity.",
-            link: "https://docs.google.com/document/d/1BpIqdGYg4WTReZ_1IajXdKEWs1UHt99e/edit?usp=drive_link&ouid=106216020587041742880&rtpof=true&sd=true",
+            link: "https://drive.google.com/file/d/1RfU_HQXR7_YfWVOyhFE_0yuP3i9kKq_Q/view?usp=drive_link",
           },
         ],
       },
@@ -188,7 +188,7 @@ const clubsData = [
             heading: "AEROMODELING QUIZ",
             subtext:
               "Aeromodeling Quiz is designed to test participants' knowledge of aerodynamics, aircraft structures, propulsion, and aviation history. Open to all engineering and aviation enthusiasts.",
-            link: "https://docs.google.com/document/d/1qBgSNo8zfCdkHVY_ts79DHSuS9S8ls15/edit?usp=drive_link&ouid=106216020587041742880&rtpof=true&sd=true",
+            link: "https://drive.google.com/file/d/1uyKnEAoyQfObGjHQf2bly3yU5--ZuRTl/view?usp=drive_link",
           },
         ],
       },
@@ -251,7 +251,7 @@ const clubsData = [
             heading: "DRIVELINE",
             subtext:
               "EV Powertrain Design Challenge is a national competition for engineering students and EV enthusiasts. Teams design a complete EV powertrain, optimizing performance, cost, and efficiency",
-            link: "https://docs.google.com/document/d/1EWR22kuwlJ3JcpkM5xWrCbaz_7_vyD_u/edit?usp=drive_link&ouid=106216020587041742880&rtpof=true&sd=true",
+            link: "https://drive.google.com/file/d/1KUC-WBHlj_Mi3ZoyjmuLC_MwQ2Tq6rF8/view?usp=drive_link",
           },
         ],
       },
@@ -262,7 +262,7 @@ const clubsData = [
             heading: "AUTOTRIVIA QUIZ",
             subtext:
               "AutoTrivia is an online quiz competition designed to challenge and expand participants knowledge of the automotive industry.",
-            link: "https://docs.google.com/document/d/15PqqNkV4V13U1Gutk2UCrxxWpUKWiEgAzSlxYuKVZ44/edit?usp=drive_link",
+            link: "https://drive.google.com/file/d/1bvsXerhULGGXMZNKz8V5LezVtYXuxfxm/view?usp=drive_link",
           },
         ],
       },
@@ -273,7 +273,7 @@ const clubsData = [
             heading: "EV WORKSHOP",
             subtext:
               "An EV workshop is a session focused on electric vehicles (EVs) covering topics like their design, components (motors, batteries, charging systems), assembly, and maintenance. It often includes hands-on activities, insights into industry trends, sustainability benefits, and the economic and policy aspects of EVs. These workshops aim to educate participants on EV technology and its role in promoting sustainable mobility",
-            link: "https://drive.google.com/file/d/1h39Eg2scEbxWA7B_Jb_TzWjOuXNs3Sc6/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1bq1dHIzXDwKleGvbfsRl5-gEK-ICzoxc/view?usp=drive_link",
           },
         ],
       },
@@ -303,7 +303,7 @@ const clubsData = [
             heading: "CREATION CHALLENGE & 3D PRINTING",
             subtext:
               "This workshop is designed to provide participants with a hands-on opportunity to explore the fascinating world of 3D printing, learn essential skills, and unleash their creativity in a collaborative environment. The goal of this workshop is to introduce participants to the fundamentals of 3D printing technology, including design principles, material selection, and machine operation.",
-            link: "https://drive.google.com/drive/folders/1jgLnoQ4qLKWFo9KbYqMmivkFgfecSKJZ?usp=drive_link",
+            link: "https://drive.google.com/file/d/1fqkh4h6KftmzjAVmTyUk-ycbfGN0nw0r/view?usp=drive_link",
           },
         ],
       },
@@ -314,7 +314,7 @@ const clubsData = [
             heading: "INNOVATION & DESIGN CHALLENGE",
             subtext:
               "The Innovation & Design Challenge is a premier competition organized as part of Abhikalpan'25, the annual tech fest of IIITDM Jabalpur. Hosted by the CAD & 3D Printing Club, this event aims to ignite creativity and technical expertise by challenging participants to design innovative solutions. The competition will span both online and offline modes, providing teams with a platform to showcase their CAD modeling, design thinking, and practical implementation skills.",
-            link: "https://drive.google.com/drive/folders/1-OkdYqVx1Sp7zESIe0_S1fe58xVkUaox?usp=drive_link",
+            link: "https://drive.google.com/file/d/1wk4P2GAATLlfFVOIA3MA5CakIwQf7t0L/view?usp=drive_link",
           },
         ],
       },
@@ -336,7 +336,7 @@ const clubsData = [
             heading: "CAD MANIA",
             subtext:
               "The CAD Mania event challenges participants to precisely replicate a complex 3D model within a limited time using designated CAD software. Competitors are evaluated based on accuracy, speed, and drafting quality, encouraging them to refine their workflow, interpret designs effectively, and maintain precision under pressure.",
-            link: "https://drive.google.com/drive/folders/1Hod3R2Pi7oMY3FJtTiaxXKJ0oYbf3yMV?usp=drive_link",
+            link: "https://drive.google.com/file/d/1MTscwQpLb9UJfy1IH8HnjRFrCAzEyIo3/view?usp=drive_link",
           },
         ],
       },
@@ -355,7 +355,7 @@ const clubsData = [
             heading: "Virtual Trading",
             subtext:
               "This virtual trading competition is designed to test participants’ financial acumen, strategic thinking, and decision-making skills. Using the Roostoo platform, participants will manage virtual portfolios and aim to maximize their value over three days. This event provides a practical learning experience in financial markets and trading strategies.",
-            link: "https://github.com/",
+            link: "https://drive.google.com/file/d/1kdA3pejNZBlDPPeweV8cjnTjt8lsJxyV/view?usp=drive_link",
           },
         ],
       },
@@ -366,7 +366,7 @@ const clubsData = [
             heading: "24-Hour Challenge",
             subtext:
               "This 24-hour hackathon challenges participants to solve real-world business problems using innovation, data analysis, and strategy development. Teams will work collaboratively to create solutions and present them to a panel of judges. The event provides an excellent platform to showcase analytical thinking, creativity, and teamwork.",
-            link: "https://drive.google.com/drive/folders/1j4MZTkhBBBLugUFCZwtmZS88pvlevSz7?usp=drive_link",
+            link: "https://drive.google.com/file/d/17gDJKnocbvELPfAHk-AX19uTCKynvp6C/view?usp=drive_link",
           },
         ],
       },
@@ -412,7 +412,24 @@ const EventAccordionItem = ({
                 >
                   RULE BOOK
                 </a>
-              </div>
+              
+            <div
+              className="w-[180px] md:w-[200px] ml-auto h-[90px]"
+              style={{
+                backgroundImage: `url(${ContainerButton.src})`,
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+              <a
+                href="https://unstop.com/"
+                className="font-aporo text-[12px] md:text-[14px] text-center text-white leading-[40px] pl-[30px]"
+              >
+                Register Now
+              </a>
+            </div>
+            </div>
+              
             ) : null}
           </>
         ))}

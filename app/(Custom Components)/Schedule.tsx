@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from "next/link";
 import React from 'react';
 import Date from '@/public/images/date_bg.svg';
 import KnowMoreImage from '@/public/images/knowmoreimage.svg'
@@ -234,14 +235,14 @@ const Schedule: React.FC = () => {
         src={gears}
         className='md:w-[65vw] w-[80vw] -bottom-[20vw] absolute -right-[12vw] opacity-15'
       />
-      <div className='md:w-[22vw] w-[33vw]  bg-blue-600/600 flex items-center justify-center absolute right-[10vw] -bottom-[2vw]'>
-        <Image
-          alt='Know More'
-          src={KnowMoreImage}
-          className='w-full'
-        />
-        <p className='absolute md:text-[2vw] text-[4vw]  text-[#FFFFFF] font-genos'>Know More</p>
-      </div>
+      <Link href="/events" className="absolute right-[10vw] -bottom-[2vw]">
+  <div className="md:w-[22vw] w-[33vw] bg-blue-600/600 flex items-center justify-center">
+    <Image alt="Know More" src={KnowMoreImage} className="w-full" />
+    <p className="absolute md:text-[2vw] text-[4vw] text-[#FFFFFF] font-genos">
+      Know More
+    </p>
+  </div>
+</Link>
     </section>
   );
 }

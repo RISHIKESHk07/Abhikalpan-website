@@ -54,18 +54,25 @@ export default function Footer() {
           <div className="flex gap-[8px] leading-[50px]">
             <Popover>
               <PopoverTrigger>
-                <Button
-                  variant="link"
-                  className="text-[18px] text-cyan-300 border border-cyan-300 px-3 py-6 rounded-md font-hellvitica"
-                >
+                <div className="text-[16px] text-cyan-300 border border-cya-2  px-[16px] rounded-md font-hellvitica">
                   ?
-                </Button>
+                </div>
               </PopoverTrigger>
               <PopoverContent>
                 <div>
                   <p className=" font-hellvitica text-[18px] text-center">
                     *For any queries related to Registration process do contact
-                    <b> <span className="text-nowrap p-1"> Tushar sharma (+91 95489 45732)</span> or <span className="text-nowrap">Aman kumar (+91 81150 67089)</span></b>{" "}
+                    <b>
+                      {" "}
+                      <span className="text-nowrap p-1">
+                        {" "}
+                        Tushar sharma (+91 95489 45732)
+                      </span>{" "}
+                      or{" "}
+                      <span className="text-nowrap">
+                        Aman kumar (+91 81150 67089)
+                      </span>
+                    </b>{" "}
                   </p>
                 </div>
               </PopoverContent>

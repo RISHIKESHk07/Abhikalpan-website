@@ -28,7 +28,7 @@ export const eventData: EventType[] = [
   },
   {
     title: "Velocity Vista",
-    organizer: "AERO FABRICATION CLUB",
+    organizer: "RACING CLUB",
     image: Date,
     time: "4 PM",
     date: "1 March '25"
@@ -81,13 +81,6 @@ export const eventData: EventType[] = [
     image: Date,
     time: "9 AM",
     date: "3 March '25"
-  },
-  {
-    title: "Sample Competition",
-    organizer: "Sample CLUB",
-    image: Date,
-    time: "11 AM",
-    date: "2 March '25"
   },
   {
     title: "The Code Arena",

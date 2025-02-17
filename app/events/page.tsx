@@ -43,7 +43,7 @@ const clubsData = [
             subtext:
               "The FPV Maze Solver competition challenges participants to design a bot that navigates a maze while overcoming obstacles. It tests robotics, programming, and problem-solving skills, fostering innovation and teamwork.",
             heading: "FPV MAZE SOLVER",
-            link: "https://drive.google.com/file/d/1AXt9lK37gVk8lC0ter6sW1_tiaaX5aYB/view?usp=sharing",
+            link: "https://drive.google.com/file/d/16EeJD0psJQZnU6I6L7d-jLghTV_aBf0t/view?usp=drive_link",
           },
         ],
       },
@@ -366,7 +366,7 @@ const clubsData = [
             heading: "24-Hour Challenge",
             subtext:
               "This 24-hour hackathon challenges participants to solve real-world business problems using innovation, data analysis, and strategy development. Teams will work collaboratively to create solutions and present them to a panel of judges. The event provides an excellent platform to showcase analytical thinking, creativity, and teamwork.",
-            link: "https://drive.google.com/file/d/17gDJKnocbvELPfAHk-AX19uTCKynvp6C/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1ciGIlgx1L8ySsIftjxJ9bMKGBQgQhHoE/view?usp=drive_link",
           },
         ],
       },

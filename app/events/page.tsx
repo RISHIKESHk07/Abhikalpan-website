@@ -54,7 +54,7 @@ const clubsData = [
             subtext:
               "The RoboWar competition challenges participants to design and build robots that battle in an arena, testing durability, strategy, and engineering excellence.",
             heading: "RoboWars",
-            link: "https://drive.google.com/file/d/1O2eLiEVNAE3zwn5W-Pk9sowudq9GhpH4/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1K_ZU5xFRL9CNBdowhBUr8QmPIKAOGwrO/view?usp=drive_link",
           },
         ],
       },
@@ -297,10 +297,10 @@ const clubsData = [
       "The CAD and 3D Printing Club of IIITDM Jabalpur fosters creativity and innovation through design and prototyping, offering workshops, competitions, and projects for students to explore CAD, 3D modeling, and additive manufacturing.",
     events: [
       {
-        title: "CREATION CHALLENGE & 3D PRINTING",
+        title: "3D PrintX",
         content: [
           {
-            heading: "CREATION CHALLENGE & 3D PRINTING",
+            heading: "3D PRINTX",
             subtext:
               "This workshop is designed to provide participants with a hands-on opportunity to explore the fascinating world of 3D printing, learn essential skills, and unleash their creativity in a collaborative environment. The goal of this workshop is to introduce participants to the fundamentals of 3D printing technology, including design principles, material selection, and machine operation.",
             link: "https://drive.google.com/file/d/1fqkh4h6KftmzjAVmTyUk-ycbfGN0nw0r/view?usp=drive_link",
@@ -355,7 +355,7 @@ const clubsData = [
             heading: "Virtual Trading",
             subtext:
               "This virtual trading competition is designed to test participants’ financial acumen, strategic thinking, and decision-making skills. Using the Roostoo platform, participants will manage virtual portfolios and aim to maximize their value over three days. This event provides a practical learning experience in financial markets and trading strategies.",
-            link: "https://drive.google.com/file/d/1kdA3pejNZBlDPPeweV8cjnTjt8lsJxyV/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1NUz7Z4NmKnyQ1R8DXfs7qDqzW3s5mPTP/view?usp=drive_link",
           },
         ],
       },
@@ -366,7 +366,7 @@ const clubsData = [
             heading: "24-Hour Challenge",
             subtext:
               "This 24-hour hackathon challenges participants to solve real-world business problems using innovation, data analysis, and strategy development. Teams will work collaboratively to create solutions and present them to a panel of judges. The event provides an excellent platform to showcase analytical thinking, creativity, and teamwork.",
-            link: "https://drive.google.com/file/d/1ciGIlgx1L8ySsIftjxJ9bMKGBQgQhHoE/view?usp=drive_link",
+            link: "https://drive.google.com/file/d/1dC2wAIHlzHQ4QMjudNYwm_ixolhAMn8Q/view?usp=drive_link",
           },
         ],
       },

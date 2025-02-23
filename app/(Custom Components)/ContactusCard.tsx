@@ -4,11 +4,8 @@ import Line from "@/public/images/ContactusLine.png";
 import Strip from "@/public/images/ContactTitleContainer.png";
 import Phone from "@/public/images/Phone.png";
 import Mail from "@/public/images/Email.png";
-import Insta from "@/public/images/mdi_instagram.png";
-import Linkdln from "@/public/images/Linkdln.png";
-import X from "@/public/images/prime_twitter.png";
 import Image, { StaticImageData } from "next/image";
-function ContactusCard({name, email,phone,src}: {name:string, email:string, phone:string ,src:StaticImageData}) {
+function ContactusCard({name, email,phone,src,title}: {name:string, email:string, phone:string ,src:StaticImageData,title:string}) {
   return (
     <div className="relative">
       <section
@@ -32,7 +29,7 @@ function ContactusCard({name, email,phone,src}: {name:string, email:string, phon
             }}
           >
             <p className="text-[13px] leading-[15px] pt-[4px] pl-[24px]">
-              Event Coordinator
+              {title}
             </p>
           </section>
           <div>
@@ -68,11 +65,7 @@ function ContactusCard({name, email,phone,src}: {name:string, email:string, phon
               </div>
             </section>
           </div>
-          <div className="flex gap-[20px] ml-[28px] sm:ml-[50px] mt-6 sm:mt-8">
-            <Image src={Insta.src} alt="phone" width={24} height={18} className="w-[16px] md:w-[24px] h-[12px] md:h-[18px]" />
-            <Image src={Linkdln.src} alt="phone" width={24} height={18} className="w-[16px] md:w-[24px] h-[12px] md:h-[18px]" />
-            <Image src={X.src} alt="phone" width={24} height={18} className="w-[20px] md:w-[24px] h-[12px] md:h-[20px]"/>
-            </div>
+          
         </div>
       </section>
     </div>

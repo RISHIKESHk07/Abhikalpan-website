@@ -57,7 +57,11 @@ const images = {
   Organizer20:"/images/Organizer20.jpg",
   Organizer21:"/images/Organizer21.jpeg",
   Organizer22:"/images/Organizer22.jpg",
-
+  Organizer23:"/images/RK.jpeg",
+  APS1:"/images/Aman Kumar.jpg",
+  APS2:"/images/Prakriti Das.jpg",
+  APS3:"/images/Devansh Singh.jpg",
+  APS4:"/images/Harshiv Agarwal.jpg"
 };
 
 const coreCommittee = [
@@ -82,7 +86,8 @@ const coreCommittee = [
   { name: "Shashank Pandey", event: "HELP DESK & SECURITY LEAD", src: images.Organizer10 , phone: "9876543210"},
   {name:"Harsh singh " , event:"BRANDING TEAM LEAD", src:images.Organizer20,phone:"6393277329" },
   {name: "Prateek Pandey" , event:"EVENTS & WORKSHOP LEAD" , src:images.Organizer21 , phone:"9892537975"},
-  {name: "Akash Viswakarna" ,event:"INFRA & ACCOMDATION LEAD" , src:images.Organizer22 ,phone:"8291473674"}
+  {name: "Akash Viswakarna" ,event:"INFRA & ACCOMDATION LEAD" , src:images.Organizer22 ,phone:"8291473674"},
+  {name: "Rishikesh Kuppala" , event:"WEBSITE LEAD" , src:images.Organizer23 ,phone:"0000000000"}
 ];
 
 const coordinators = [
@@ -106,7 +111,11 @@ const coordinators = [
   { name: "Aishwarya Jaiswal", event: "AutoTrivia Quiz", src: images.RC2 , phone: "9369945836"},
   { name: "Anish", event: "EV Workshop", src: images.RC3 , phone: "9508720514"},
   { name: "Anmol Kumar", event: "Seminar", src: images.RC4 , phone: "9170493269"},
-  { name: "Nitin Pandey", event: "Trading Event", src: images.B2 , phone: "7016208803"}
+  { name: "Nitin Pandey", event: "Trading Event", src: images.B2 , phone: "7016208803"},
+  {name: " Aman Kumar" , event:"Cosmic Quest" , src:images.APS1 ,phone:"8115067089"},
+  {name:" Prakriti Das", event:"Laser Constellation" ,src: images.APS2, phone:"9434845550" },
+  {name:"Devansh singh" ,event:"Touchdown Triumph",src:images.APS3 ,phone:"7222940769"},
+  {name:" Harshiv Agrawal" ,event:"Eclipse - Case Study",src:images.APS4 ,phone:"8488060744"},
 ];
 
 function Page() {

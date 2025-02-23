@@ -422,7 +422,7 @@ const EventAccordionItem = ({
               }}
             >
               <a
-                href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
+                href="https://unstop.com/college-fests/abhikalpan25-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur-321930"
                 className="font-aporo text-[12px] md:text-[14px] text-center text-white leading-[40px] pl-[30px]"
               >
                 Register Now
@@ -461,7 +461,7 @@ function page() {
       </div>
       <div className="w-full flex items-center justify-center gap-2  mt-[30px] md:mt-[80px]">
         <a
-          href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
+          href="https://unstop.com/college-fests/abhikalpan25-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur-321930"
           className=" self-end w-[38vw] mb-1 flex items-center justify-center "
         >
           <div className="absolute self-end w-[38vw] lg:w-[30vw] mb-0 flex items-center justify-center">

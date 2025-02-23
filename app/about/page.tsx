@@ -20,7 +20,7 @@ const page = () => {
     <>
       {/* Added overflow-hidden */}
       <Navbar />
-      <div className="flex justify-end  mt-[60px] sm:mt-[320px] leading-[64px] items-center mr-[5vw]">
+      <div className="flex justify-end  mt-[60px] sm:mt-[320px] leading-[64px] items-center mr-[5vw] mb-[20px]">
         <img
           src="/images/About2.png"
           alt=""
@@ -33,7 +33,7 @@ const page = () => {
       {/* Left Side 1 */}
       <section style={{}}>
         <section
-          className="relative w-full md:min-h-[310px]"
+          className="relative w-full md:min-h-[310px] "
           style={{
             backgroundImage: `url(${Bg.src})`,
             backgroundSize: "contain",

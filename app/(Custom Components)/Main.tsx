@@ -33,7 +33,7 @@ const Main = () => {
           </p>
         </div>
 
-        <a href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
+        <a href="https://forms.gle/7h1yDQfXaxBqRVgY7"
           className="absolute self-end w-[38vw] mb-1 flex items-center justify-center z-50">
           <div className="absolute self-end w-[38vw] mb-0 flex items-center justify-center">
             <Image
@@ -42,12 +42,12 @@ const Main = () => {
               alt="registenow_button"
             />
             <Image
-              className=" bottom-[0.5vw] right-[2vw] w-[8vw] absolute"
+              className=" bottom-[0.5vw] right-[2vw] w-[5vw] absolute"
               src={register_bottom_img}
               alt="register_bottom_img"
             />
-            <p className="absolute font-genos text-white text-[2.8vw]">
-              Register Now
+            <p className="absolute font-genos text-white text-[2.2vw]">
+            Accommodation Registration
             </p>
           </div>
         </a>

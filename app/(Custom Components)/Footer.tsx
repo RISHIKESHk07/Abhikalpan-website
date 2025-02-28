@@ -77,7 +77,7 @@ export default function Footer() {
               </PopoverContent>
             </Popover>
             <a
-              href="https://docs.google.com/forms/d/1T1guiaxfjHaTCcrusZiula2_Ldt9nFF2vx_1yfIoerA/edit"
+              href="https://unstop.com/college-fests/abhikalpan25-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur-321930"
               className="self-end text-right"
             >
               <img

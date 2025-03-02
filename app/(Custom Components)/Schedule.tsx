@@ -18,90 +18,90 @@ export const eventData: EventType[] = [
     organizer: "CAD & 3D PRINTING CLUB",
     image: Date,
     time: "2 PM",
-    date: "1 March '25"
+    date: "11 April '25"
   },
   {
     title: "CryptoTrading Hackathon",
     organizer: "BUSINESS AND MANAGEMENT CLUB",
     image: Date,
     time: "2 PM",
-    date: "1 March '25"
+    date: "11 April '25"
   },
   {
     title: "Velocity Vista",
     organizer: "RACING CLUB",
     image: Date,
     time: "4 PM",
-    date: "1 March '25"
+    date: "11 April '25"
   },
   {
     title: "CSS BattleField",
     organizer: "TPC - The programming club",
     image: Date,
     time: "9 AM",
-    date: "2 March '25"
+    date: "12 April '25"
   },
   {
     title: "E-Sports",
     organizer: "TPC - The programming club",
     image: Date,
     time: "2 PM",
-    date: "2 March '25"
+    date: "12 April '25"
   },
   {
     title: "CAD BattleField",
     organizer: "CAD & 3D PRINTING CLUB",
     image: Date,
     time: "2 PM",
-    date: "2 March '25"
+    date: "12 April '25"
   },
   {
     title: "Machine Learning",
     organizer: "TPC - The programming club",
     image: Date,
     time: "3 PM",
-    date: "5 Feb '25"
+    date: "15 April '25"
   },
   {
     title: "RC Glider Competition",
     organizer: "AERO FABRICATION CLUB",
     image: Date,
     time: "11 AM",
-    date: "2 March '25"
+    date: "12 April '25"
   },
   {
     title: "Robowars competition",
     organizer: "ELECTRONICS AND ROBOTICS SOCIETY",
     image: Date,
     time: "11 AM",
-    date: "3 March '25"
+    date: "13 April '25"
   },
   {
     title: "Innovation Design",
     organizer: "CAD & 3D PRINTING CLUB",
     image: Date,
     time: "9 AM",
-    date: "3 March '25"
+    date: "13 April '25"
   },
   {
     title: "The Code Arena",
     organizer: "TPC - The programming club",
     image: Date,
     time: "10 AM",
-    date: "3 March '25"
+    date: "13 April '25"
   },
   {
     title: "EV Workshop",
     organizer: "RACING CLUB",
     image: Date,
     time: "2 PM",
-    date: "3 March '25"
+    date: "13 April '25"
   }
 ];
 
-const eventData1march = eventData.filter((event) => event.date === "1 March '25");
-const eventData2march = eventData.filter((event) => event.date === "2 March '25");
-const eventData3march = eventData.filter((event) => event.date === "3 March '25");
+const eventData1march = eventData.filter((event) => event.date === "11 April '25");
+const eventData2march = eventData.filter((event) => event.date === "12 April '25");
+const eventData3march = eventData.filter((event) => event.date === "13 April '25");
 
 
 const Schedule: React.FC = () => {
@@ -113,7 +113,7 @@ const Schedule: React.FC = () => {
       </div>
       <div className='w-full bg-green-500/500 sm:hidden flex-col h-[90vw] py-5 flex justify-between'>
         <div className='font-genos text-center text-white text-[8vw]'>
-          1 March &apos;25
+          11 April &apos;25
         </div>
         {
           eventData1march.map((event, index) => (
@@ -143,7 +143,7 @@ const Schedule: React.FC = () => {
       <div className='w-full bg-green-500/500 h-full hidden sm:flex-row sm:flex'>
         <div className='w-1/3 bg-blue-500/500 h-full flex flex-col gap-[2vw] py-14'>
           <div className='font-genos text-center text-white text-[4vw]'>
-            1 March &apos;25
+            11 April &apos;25
           </div>
           {
             eventData1march.map((event, index) => (
@@ -173,7 +173,7 @@ const Schedule: React.FC = () => {
         </div>
         <div className='w-1/3 bg-amber-500/500 h-full flex flex-col gap-[2vw] py-14'>
           <div className='font-genos text-center text-white text-[4vw]'>
-            2 March &apos;25
+            12 April &apos;25
           </div>
           {
             eventData2march.map((event, index) => (
@@ -202,7 +202,7 @@ const Schedule: React.FC = () => {
         </div>
         <div className='w-1/3 bg-blue-500/500 h-full flex flex-col gap-[2vw] py-14'>
           <div className='font-genos text-center text-white text-[4vw]'>
-            3 March &apos;25
+            13 April &apos;25
           </div>
           {
             eventData3march.map((event, index) => (

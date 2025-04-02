@@ -15,7 +15,27 @@ const Main = () => {
           alt="Logo"
           className="absolute mr-[50vw] w-[40vw] sm:w-[50vw] h-[20vw] sm:h-[18vw] md:w-[300px] md:h-[110px] lg:w-[30vw] lg:h-[20vh] mt-[3vw] sm:mt-[2vw] md:mt-[1vw]"
         />
-        <div className="w-[40%] h-[55%] mb-10 absolute bg-blue-600/600 flex flex-col justify-center pr-10">
+        <div className="w-[40%] h-[35%] mb-10 absolute bg-blue-600/600 flex flex-col justify-center pr-10">
+        <a
+          href="https://forms.gle/QqLbFDFP9AnVuTnt6"
+          className=" self-end w-[28vw] mb-4 flex items-center justify-center "
+        >
+          <div className=" self-end w-[30vw] lg:w-[30vw] mb-0 flex items-center justify-center">
+            <Image
+              className=" w-[30vw]"
+              src={register_now_bg}
+              alt="registenow_button"
+            />
+            <Image
+              className=" bottom-[0.5vw] right-[0vw] w-[8vw] absolute hidden "
+              src={register_bottom_img}
+              alt="register_bottom_img"
+            />
+            <p className="absolute font-genos text-white text-[2.8vw]">
+              Grab our Merch!!
+            </p>
+          </div>
+        </a>
           <p className="text-white text-[4vw] font-genos text-center self-end ">
             From
           </p>
@@ -51,6 +71,7 @@ const Main = () => {
             </p>
           </div>
         </a>
+        
         {/* <div className="h-10 flex items-center absolute -bottom-[6vw] left-0 justify-center w-[20vw] bg-blue-500/500 pl-2">
           <Image
             src={eventschedule}
@@ -63,7 +84,9 @@ const Main = () => {
         </div> */}
         <div className="h-10 flex items-center absolute -bottom-[8vw]  sm:-bottom-[6vw] right-0 justify-between pl-[3vw] w-[19vw] bg-blue-500/500 px-2">
           <p className="text-[2.3vw] text-[#FFFFFF] font-genos">Know More</p>
+          
           <Image src={knowmore} alt="knowmore" className="w-[2.5vw]" />
+          
         </div>
       </div>
     </div>

@@ -3,6 +3,10 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import React from "react";
+import Image from "next/image";
+import register_now_bg from "@/public/images/register_now_bg.svg";
+import register_bottom_img from "@/public/assets/register_now_bottom_img.svg";
 
 export default function Footer() {
   return (
@@ -99,6 +103,26 @@ export default function Footer() {
             <p>Designed in collaboration with Department of Design IIITDMJ</p>
             <p>Developed by the Technical Fraternity IIITDMJ</p>
           </div>
+          <a
+          href="https://docs.google.com/document/d/1nDhLzq4vcRoiR6nucN8MzUm_RsMAvYUW0u3_m3-XCTY/edit?tab=t.0"
+          className=" self-end w-[20vw] mb-4 flex items-center justify-center "
+        >
+          <div className=" self-end w-[20vw] lg:w-[30vw] mb-0 flex items-center justify-center">
+            <Image
+              className=" w-[20vw]"
+              src={register_now_bg}
+              alt="registenow_button"
+            />
+            <Image
+              className=" bottom-[0.5vw] right-[0vw] w-[8vw] absolute hidden "
+              src={register_bottom_img}
+              alt="register_bottom_img"
+            />
+            <p className="absolute font-genos  text-white text-[1.8vw]">
+              Code of Conduct
+            </p>
+          </div>
+        </a>
         </div>
       </div>
     </footer>
